@@ -1,0 +1,134 @@
+
+===============================START=============================
+K3iso one param fit
+energy cutoff = 0.39
+ndof = 10 - 1 = 9
+chisquare = 13.18544519240719
+chisquare per ndof = 1.465049465823021
+
+res = 
+      fun: 13.18544519240719
+ hess_inv: [[2.36179503e+10]]
+  message: 'Optimization terminated successfully.'
+   minuit: <FMin algorithm='Migrad' edm=1.3780884253125064e-05 edm_goal=0.0001 errordef=0.5 fval=13.18544519240719 has_accurate_covar=True has_covariance=True has_made_posdef_covar=False has_parameters_at_limit=False has_posdef_covar=True has_reached_call_limit=False has_valid_parameters=True hesse_failed=False is_above_max_edm=False is_valid=True nfcn=61 ngrad=0 reduced_chi2=nan time=567.9841770220082>
+(Param(number=0, name='x0', value=65562.89222618716, error=153681.32697334333, merror=None, is_const=False, is_fixed=False, lower_limit=None, upper_limit=None),)
+[[2.36179503e+10]]
+     nfev: 61
+     njev: 0
+  success: True
+        x: array([65562.89222619])
+================================END==============================
+
+===============================START=============================
+K3iso one param fitenergy cutoff = 0.39
+ndof = 10 - 1 = 9
+chisquare = 13.185444119089569
+chisquare per ndof = 1.4650493465655077
+
+res = 
+      fun: 13.185444119089569
+ hess_inv: [[48114964.79600684]]
+  message: 'Optimization terminated successfully.'
+   minuit: <FMin algorithm='Migrad' edm=2.5900433360999294e-08 edm_goal=0.0001 errordef=0.5 fval=13.185444119089569 has_accurate_covar=True has_covariance=True has_made_posdef_covar=False has_parameters_at_limit=False has_posdef_covar=True has_reached_call_limit=False has_valid_parameters=True hesse_failed=False is_above_max_edm=False is_valid=True nfcn=63 ngrad=0 reduced_chi2=nan time=585.1621487270004>
+(Param(number=0, name='x0', value=65530.84223357144, error=6936.495137748374, merror=None, is_const=False, is_fixed=False, lower_limit=None, upper_limit=None),)
+[[48114964.79600684]]
+     nfev: 63
+     njev: 0
+  success: True
+        x: array([65530.84223357])
+================================END==============================
+
+===============================START=============================
+K3iso one param fitenergy cutoff = 0.39
+ndof = 10 - 1 = 9
+chisquare = 13.185444313759156
+chisquare per ndof = 1.4650493681954617
+
+res = 
+      fun: 13.185444313759156
+ hess_inv: [[1.95377868e+08]]
+  message: 'Optimization terminated successfully.'
+   minuit: <FMin algorithm='Migrad' edm=1.0679318205269882e-07 edm_goal=0.0001 errordef=0.5 fval=13.185444313759156 has_accurate_covar=True has_covariance=True has_made_posdef_covar=False has_parameters_at_limit=False has_posdef_covar=True has_reached_call_limit=False has_valid_parameters=True hesse_failed=False is_above_max_edm=False is_valid=True nfcn=52 ngrad=0 reduced_chi2=nan time=503.61075414800143>
+(Param(number=0, name='x0', value=65536.75236409446, error=13977.763342286667, merror=None, is_const=False, is_fixed=False, lower_limit=None, upper_limit=None),)
+[[1.95377868e+08]]
+     nfev: 52
+     njev: 0
+  success: True
+        x: array([65536.75236409])
+================================END==============================
+
+===============================START=============================
+K3iso one param fitenergy cutoff = 0.39
+ndof = 10 - 1 = 9
+chisquare = 13.185444313759156
+chisquare per ndof = 1.4650493681954617
+
+res = 
+      fun: 13.185444313759156
+ hess_inv: [[1.95377868e+08]]
+  message: 'Optimization terminated successfully.'
+   minuit: <FMin algorithm='Migrad' edm=1.0679318205269882e-07 edm_goal=0.0001 errordef=0.5 fval=13.185444313759156 has_accurate_covar=True has_covariance=True has_made_posdef_covar=False has_parameters_at_limit=False has_posdef_covar=True has_reached_call_limit=False has_valid_parameters=True hesse_failed=False is_above_max_edm=False is_valid=True nfcn=52 ngrad=0 reduced_chi2=nan time=465.43076629600546>
+(Param(number=0, name='x0', value=65536.75236409446, error=13977.763342286667, merror=None, is_const=False, is_fixed=False, lower_limit=None, upper_limit=None),)
+[[1.95377868e+08]]
+     nfev: 52
+     njev: 0
+  success: True
+        x: array([65536.75236409])
+================================END==============================
+
+===============================START=============================
+K3iso one param fitenergy cutoff = 0.39
+ndof = 10 - 1 = 9
+chisquare = 13.185444313759156
+chisquare per ndof = 1.4650493681954617
+
+res = 
+      fun: 13.185444313759156
+ hess_inv: [[1.95377868e+08]]
+  message: 'Optimization terminated successfully.'
+   minuit: <FMin algorithm='Migrad' edm=1.0679318205269882e-07 edm_goal=0.0001 errordef=0.5 fval=13.185444313759156 has_accurate_covar=True has_covariance=True has_made_posdef_covar=False has_parameters_at_limit=False has_posdef_covar=True has_reached_call_limit=False has_valid_parameters=True hesse_failed=False is_above_max_edm=False is_valid=True nfcn=52 ngrad=0 reduced_chi2=nan time=476.8506593010097>
+(Param(number=0, name='x0', value=65536.75236409446, error=13977.763342286667, merror=None, is_const=False, is_fixed=False, lower_limit=None, upper_limit=None),)
+[[1.95377868e+08]]
+     nfev: 52
+     njev: 0
+  success: True
+        x: array([65536.75236409])
+================================END==============================
+
+===============================START=============================
+K3iso one param fitenergy cutoff = 0.39
+ndof = 10 - 1 = 9
+chisquare = 13.185444313759156
+chisquare per ndof = 1.4650493681954617
+
+res = 
+      fun: 13.185444313759156
+ hess_inv: [[1.95377868e+08]]
+  message: 'Optimization terminated successfully.'
+   minuit: <FMin algorithm='Migrad' edm=1.0679318205269882e-07 edm_goal=0.0001 errordef=0.5 fval=13.185444313759156 has_accurate_covar=True has_covariance=True has_made_posdef_covar=False has_parameters_at_limit=False has_posdef_covar=True has_reached_call_limit=False has_valid_parameters=True hesse_failed=False is_above_max_edm=False is_valid=True nfcn=52 ngrad=0 reduced_chi2=nan time=486.2833698989998>
+(Param(number=0, name='x0', value=65536.75236409446, error=13977.763342286667, merror=None, is_const=False, is_fixed=False, lower_limit=None, upper_limit=None),)
+[[1.95377868e+08]]
+     nfev: 52
+     njev: 0
+  success: True
+        x: array([65536.75236409])
+================================END==============================
+
+===============================START=============================
+K3iso one param fitenergy cutoff = 0.39
+ndof = 10 - 1 = 9
+chisquare = 13.185449571114287
+chisquare per ndof = 1.4650499523460319
+
+res = 
+      fun: 13.185449571114287
+ hess_inv: [[2.37263114e+10]]
+  message: 'Optimization terminated successfully.'
+   minuit: <FMin algorithm='Migrad' edm=1.8229468961238828e-05 edm_goal=0.0001 errordef=0.5 fval=13.185449571114287 has_accurate_covar=True has_covariance=True has_made_posdef_covar=False has_parameters_at_limit=False has_posdef_covar=True has_reached_call_limit=False has_valid_parameters=True hesse_failed=False is_above_max_edm=False is_valid=True nfcn=46 ngrad=0 reduced_chi2=nan time=434.2818179450114>
+(Param(number=0, name='x0', value=65682.25662494857, error=154033.47485515242, merror=None, is_const=False, is_fixed=False, lower_limit=None, upper_limit=None),)
+[[2.37263114e+10]]
+     nfev: 46
+     njev: 0
+  success: True
+        x: array([65682.25662495])
+================================END==============================

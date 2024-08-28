@@ -1,0 +1,11 @@
+*.dat filter=lfs diff=lfs merge=lfs -text
+non_int.000_A1m filter=lfs diff=lfs merge=lfs -text
+non_int.100_A2 filter=lfs diff=lfs merge=lfs -text
+non_int.110_A2 filter=lfs diff=lfs merge=lfs -text
+non_int.111_A2 filter=lfs diff=lfs merge=lfs -text
+non_int.200_A2 filter=lfs diff=lfs merge=lfs -text
+test_files/F3_for_pole_KKpi_L24/non_int.000_A1m filter=lfs diff=lfs merge=lfs -text
+test_files/F3_for_pole_KKpi_L24/non_int.100_A2 filter=lfs diff=lfs merge=lfs -text
+test_files/F3_for_pole_KKpi_L24/non_int.110_A2 filter=lfs diff=lfs merge=lfs -text
+test_files/F3_for_pole_KKpi_L24/non_int.111_A2 filter=lfs diff=lfs merge=lfs -text
+test_files/F3_for_pole_KKpi_L24/non_int.200_A2 filter=lfs diff=lfs merge=lfs -text

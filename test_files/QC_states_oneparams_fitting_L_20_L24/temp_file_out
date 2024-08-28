@@ -1,0 +1,1069 @@
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	deleted:    ../../lattice_data/KKpi_interacting_spectrum/twoptvar_analysis/masses/szscl21_24_128_b1p50_t_x4p300_um0p0840_sm0p0743_n1p265_100_A2_state_10
+	deleted:    ../../lattice_data/KKpi_interacting_spectrum/twoptvar_analysis/masses/szscl21_24_128_b1p50_t_x4p300_um0p0840_sm0p0743_n1p265_100_A2_state_11
+	deleted:    ../../lattice_data/KKpi_interacting_spectrum/twoptvar_analysis/masses/szscl21_24_128_b1p50_t_x4p300_um0p0840_sm0p0743_n1p265_100_A2_state_12
+	deleted:    ../../lattice_data/KKpi_interacting_spectrum/twoptvar_analysis/masses/szscl21_24_128_b1p50_t_x4p300_um0p0840_sm0p0743_n1p265_100_A2_state_13
+	deleted:    ../../lattice_data/KKpi_interacting_spectrum/twoptvar_analysis/masses/szscl21_24_128_b1p50_t_x4p300_um0p0840_sm0p0743_n1p265_100_A2_state_5
+	deleted:    ../../lattice_data/KKpi_interacting_spectrum/twoptvar_analysis/masses/szscl21_24_128_b1p50_t_x4p300_um0p0840_sm0p0743_n1p265_100_A2_state_6
+	deleted:    ../../lattice_data/KKpi_interacting_spectrum/twoptvar_analysis/masses/szscl21_24_128_b1p50_t_x4p300_um0p0840_sm0p0743_n1p265_100_A2_state_7
+	deleted:    ../../lattice_data/KKpi_interacting_spectrum/twoptvar_analysis/masses/szscl21_24_128_b1p50_t_x4p300_um0p0840_sm0p0743_n1p265_100_A2_state_8
+	deleted:    ../../lattice_data/KKpi_interacting_spectrum/twoptvar_analysis/masses/szscl21_24_128_b1p50_t_x4p300_um0p0840_sm0p0743_n1p265_100_A2_state_9
+	modified:   ../../printer_omp
+	modified:   ../../printer_omp.o
+	modified:   ../../source/QC_fitter_1.py
+	modified:   ../../source/printer_F3_omp.cpp
+	modified:   ../F3_for_pole_KKpi_L24/F3inv_poles_region_nP_100_L24.dat
+	modified:   ../F3_for_pole_KKpi_L24/F3inv_poles_region_nP_110_L24.dat
+	modified:   ../F3_for_pole_KKpi_L24/F3inv_poles_region_nP_111_L24.dat
+	modified:   ../F3_for_pole_KKpi_L24/F3inv_poles_region_nP_200_L24.dat
+	deleted:    ../F3_for_pole_KKpi_L24/temp/ultraHQ_F3_for_pole_KKpi_L24_nP_000.dat
+	deleted:    ../F3_for_pole_KKpi_L24/temp/ultraHQ_F3_for_pole_KKpi_L24_nP_100.dat
+	deleted:    ../F3_for_pole_KKpi_L24/temp/ultraHQ_F3_for_pole_KKpi_L24_nP_110.dat
+	deleted:    ../F3_for_pole_KKpi_L24/temp/ultraHQ_F3_for_pole_KKpi_L24_nP_111.dat
+	deleted:    ../F3_for_pole_KKpi_L24/temp/ultraHQ_F3_for_pole_KKpi_L24_nP_200.dat
+	modified:   ../F3_for_pole_KKpi_L24/ultraHQ_F3_for_pole_KKpi_L24_nP_100.dat
+	modified:   ../F3_for_pole_KKpi_L24/ultraHQ_F3_for_pole_KKpi_L24_nP_110.dat
+	modified:   ../F3_for_pole_KKpi_L24/ultraHQ_F3_for_pole_KKpi_L24_nP_111.dat
+	modified:   ../F3_for_pole_KKpi_L24/ultraHQ_F3_for_pole_KKpi_L24_nP_200.dat
+	modified:   ../F3inv_poles_L24/F3inv_poles_region_nP_000_L24.dat
+	modified:   ../F3inv_poles_L24/F3inv_poles_region_nP_100_L24.dat
+	modified:   ../F3inv_poles_L24/F3inv_poles_region_nP_110_L24.dat
+	modified:   ../F3inv_poles_L24/F3inv_poles_region_nP_111_L24.dat
+	modified:   ../F3inv_poles_L24/F3inv_poles_region_nP_200_L24.dat
+	deleted:    QC_states_for_jackknife_L_20_nP_000_state_0_energycutoff_0.29_one_param.dat
+	deleted:    QC_states_for_jackknife_L_20_nP_000_state_0_energycutoff_0.31_one_param.dat
+	deleted:    QC_states_for_jackknife_L_20_nP_000_state_0_energycutoff_0.33_one_param.dat
+	deleted:    QC_states_for_jackknife_L_20_nP_000_state_0_energycutoff_0.35_one_param.dat
+	deleted:    QC_states_for_jackknife_L_20_nP_000_state_0_energycutoff_0.37_one_param.dat
+	deleted:    QC_states_for_jackknife_L_20_nP_000_state_1_energycutoff_0.35_one_param.dat
+	deleted:    QC_states_for_jackknife_L_20_nP_000_state_1_energycutoff_0.37_one_param.dat
+	deleted:    QC_states_for_jackknife_L_20_nP_000_state_2_energycutoff_0.37_one_param.dat
+	deleted:    QC_states_for_jackknife_L_20_nP_100_state_0_energycutoff_0.31_one_param.dat
+	deleted:    QC_states_for_jackknife_L_20_nP_100_state_0_energycutoff_0.33_one_param.dat
+	deleted:    QC_states_for_jackknife_L_20_nP_100_state_0_energycutoff_0.35_one_param.dat
+	deleted:    QC_states_for_jackknife_L_20_nP_100_state_0_energycutoff_0.37_one_param.dat
+	deleted:    QC_states_for_jackknife_L_20_nP_100_state_1_energycutoff_0.31_one_param.dat
+	deleted:    QC_states_for_jackknife_L_20_nP_100_state_1_energycutoff_0.33_one_param.dat
+	deleted:    QC_states_for_jackknife_L_20_nP_100_state_1_energycutoff_0.35_one_param.dat
+	deleted:    QC_states_for_jackknife_L_20_nP_100_state_1_energycutoff_0.37_one_param.dat
+	deleted:    QC_states_for_jackknife_L_20_nP_100_state_2_energycutoff_0.37_one_param.dat
+	deleted:    QC_states_for_jackknife_L_20_nP_100_state_3_energycutoff_0.37_one_param.dat
+	deleted:    QC_states_for_jackknife_L_20_nP_100_state_4_energycutoff_0.37_one_param.dat
+	deleted:    QC_states_for_jackknife_L_20_nP_110_state_0_energycutoff_0.31_one_param.dat
+	deleted:    QC_states_for_jackknife_L_20_nP_110_state_0_energycutoff_0.33_one_param.dat
+	deleted:    QC_states_for_jackknife_L_20_nP_110_state_0_energycutoff_0.35_one_param.dat
+	deleted:    QC_states_for_jackknife_L_20_nP_110_state_0_energycutoff_0.37_one_param.dat
+	deleted:    QC_states_for_jackknife_L_20_nP_110_state_1_energycutoff_0.33_one_param.dat
+	deleted:    QC_states_for_jackknife_L_20_nP_110_state_1_energycutoff_0.35_one_param.dat
+	deleted:    QC_states_for_jackknife_L_20_nP_110_state_1_energycutoff_0.37_one_param.dat
+	deleted:    QC_states_for_jackknife_L_20_nP_110_state_2_energycutoff_0.33_one_param.dat
+	deleted:    QC_states_for_jackknife_L_20_nP_110_state_2_energycutoff_0.35_one_param.dat
+	deleted:    QC_states_for_jackknife_L_20_nP_110_state_2_energycutoff_0.37_one_param.dat
+	deleted:    QC_states_for_jackknife_L_20_nP_110_state_3_energycutoff_0.33_one_param.dat
+	deleted:    QC_states_for_jackknife_L_20_nP_110_state_3_energycutoff_0.35_one_param.dat
+	deleted:    QC_states_for_jackknife_L_20_nP_110_state_3_energycutoff_0.37_one_param.dat
+	deleted:    QC_states_for_jackknife_L_20_nP_110_state_4_energycutoff_0.37_one_param.dat
+	deleted:    QC_states_for_jackknife_L_20_nP_111_state_0_energycutoff_0.33_one_param.dat
+	deleted:    QC_states_for_jackknife_L_20_nP_111_state_0_energycutoff_0.35_one_param.dat
+	deleted:    QC_states_for_jackknife_L_20_nP_111_state_0_energycutoff_0.37_one_param.dat
+	deleted:    QC_states_for_jackknife_L_20_nP_111_state_1_energycutoff_0.33_one_param.dat
+	deleted:    QC_states_for_jackknife_L_20_nP_111_state_1_energycutoff_0.35_one_param.dat
+	deleted:    QC_states_for_jackknife_L_20_nP_111_state_1_energycutoff_0.37_one_param.dat
+	deleted:    QC_states_for_jackknife_L_20_nP_111_state_2_energycutoff_0.35_one_param.dat
+	deleted:    QC_states_for_jackknife_L_20_nP_111_state_2_energycutoff_0.37_one_param.dat
+	deleted:    QC_states_for_jackknife_L_20_nP_111_state_3_energycutoff_0.35_one_param.dat
+	deleted:    QC_states_for_jackknife_L_20_nP_111_state_3_energycutoff_0.37_one_param.dat
+	deleted:    QC_states_for_jackknife_L_20_nP_111_state_4_energycutoff_0.37_one_param.dat
+	deleted:    QC_states_for_jackknife_L_20_nP_200_state_0_energycutoff_0.29_one_param.dat
+	deleted:    QC_states_for_jackknife_L_20_nP_200_state_0_energycutoff_0.31_one_param.dat
+	deleted:    QC_states_for_jackknife_L_20_nP_200_state_0_energycutoff_0.33_one_param.dat
+	deleted:    QC_states_for_jackknife_L_20_nP_200_state_0_energycutoff_0.35_one_param.dat
+	deleted:    QC_states_for_jackknife_L_20_nP_200_state_0_energycutoff_0.37_one_param.dat
+	deleted:    QC_states_for_jackknife_L_20_nP_200_state_1_energycutoff_0.31_one_param.dat
+	deleted:    QC_states_for_jackknife_L_20_nP_200_state_1_energycutoff_0.33_one_param.dat
+	deleted:    QC_states_for_jackknife_L_20_nP_200_state_1_energycutoff_0.35_one_param.dat
+	deleted:    QC_states_for_jackknife_L_20_nP_200_state_1_energycutoff_0.37_one_param.dat
+	deleted:    QC_states_for_jackknife_L_20_nP_200_state_2_energycutoff_0.33_one_param.dat
+	deleted:    QC_states_for_jackknife_L_20_nP_200_state_2_energycutoff_0.35_one_param.dat
+	deleted:    QC_states_for_jackknife_L_20_nP_200_state_2_energycutoff_0.37_one_param.dat
+	deleted:    QC_states_for_jackknife_L_20_nP_200_state_3_energycutoff_0.35_one_param.dat
+	deleted:    QC_states_for_jackknife_L_20_nP_200_state_3_energycutoff_0.37_one_param.dat
+	deleted:    QC_states_for_jackknife_L_20_nP_200_state_4_energycutoff_0.37_one_param.dat
+	deleted:    QC_states_for_jackknife_L_20_nP_200_state_5_energycutoff_0.37_one_param.dat
+	deleted:    QC_states_for_jackknife_L_20_nP_200_state_6_energycutoff_0.37_one_param.dat
+	deleted:    QC_states_for_jackknife_L_24_nP_000_state_0_energycutoff_0.29_one_param.dat
+	deleted:    QC_states_for_jackknife_L_24_nP_000_state_0_energycutoff_0.31_one_param.dat
+	deleted:    QC_states_for_jackknife_L_24_nP_000_state_0_energycutoff_0.33_one_param.dat
+	deleted:    QC_states_for_jackknife_L_24_nP_000_state_0_energycutoff_0.35_one_param.dat
+	deleted:    QC_states_for_jackknife_L_24_nP_000_state_0_energycutoff_0.37_one_param.dat
+	deleted:    QC_states_for_jackknife_L_24_nP_000_state_1_energycutoff_0.33_one_param.dat
+	deleted:    QC_states_for_jackknife_L_24_nP_000_state_1_energycutoff_0.35_one_param.dat
+	deleted:    QC_states_for_jackknife_L_24_nP_000_state_1_energycutoff_0.37_one_param.dat
+	deleted:    QC_states_for_jackknife_L_24_nP_000_state_2_energycutoff_0.33_one_param.dat
+	deleted:    QC_states_for_jackknife_L_24_nP_000_state_2_energycutoff_0.35_one_param.dat
+	deleted:    QC_states_for_jackknife_L_24_nP_000_state_2_energycutoff_0.37_one_param.dat
+	deleted:    QC_states_for_jackknife_L_24_nP_000_state_3_energycutoff_0.37_one_param.dat
+	deleted:    QC_states_for_jackknife_L_24_nP_100_state_0_energycutoff_0.29_one_param.dat
+	deleted:    QC_states_for_jackknife_L_24_nP_100_state_0_energycutoff_0.31_one_param.dat
+	deleted:    QC_states_for_jackknife_L_24_nP_100_state_0_energycutoff_0.33_one_param.dat
+	deleted:    QC_states_for_jackknife_L_24_nP_100_state_0_energycutoff_0.35_one_param.dat
+	deleted:    QC_states_for_jackknife_L_24_nP_100_state_0_energycutoff_0.37_one_param.dat
+	deleted:    QC_states_for_jackknife_L_24_nP_100_state_10_energycutoff_0.37_one_param.dat
+	deleted:    QC_states_for_jackknife_L_24_nP_100_state_1_energycutoff_0.29_one_param.dat
+	deleted:    QC_states_for_jackknife_L_24_nP_100_state_1_energycutoff_0.31_one_param.dat
+	deleted:    QC_states_for_jackknife_L_24_nP_100_state_1_energycutoff_0.33_one_param.dat
+	deleted:    QC_states_for_jackknife_L_24_nP_100_state_1_energycutoff_0.35_one_param.dat
+	deleted:    QC_states_for_jackknife_L_24_nP_100_state_1_energycutoff_0.37_one_param.dat
+	deleted:    QC_states_for_jackknife_L_24_nP_100_state_2_energycutoff_0.29_one_param.dat
+	deleted:    QC_states_for_jackknife_L_24_nP_100_state_2_energycutoff_0.31_one_param.dat
+	deleted:    QC_states_for_jackknife_L_24_nP_100_state_2_energycutoff_0.33_one_param.dat
+	deleted:    QC_states_for_jackknife_L_24_nP_100_state_2_energycutoff_0.35_one_param.dat
+	deleted:    QC_states_for_jackknife_L_24_nP_100_state_2_energycutoff_0.37_one_param.dat
+	deleted:    QC_states_for_jackknife_L_24_nP_100_state_3_energycutoff_0.35_one_param.dat
+	deleted:    QC_states_for_jackknife_L_24_nP_100_state_3_energycutoff_0.37_one_param.dat
+	deleted:    QC_states_for_jackknife_L_24_nP_100_state_4_energycutoff_0.35_one_param.dat
+	deleted:    QC_states_for_jackknife_L_24_nP_100_state_4_energycutoff_0.37_one_param.dat
+	deleted:    QC_states_for_jackknife_L_24_nP_100_state_5_energycutoff_0.35_one_param.dat
+	deleted:    QC_states_for_jackknife_L_24_nP_100_state_5_energycutoff_0.37_one_param.dat
+	deleted:    QC_states_for_jackknife_L_24_nP_100_state_6_energycutoff_0.35_one_param.dat
+	deleted:    QC_states_for_jackknife_L_24_nP_100_state_6_energycutoff_0.37_one_param.dat
+	deleted:    QC_states_for_jackknife_L_24_nP_100_state_7_energycutoff_0.35_one_param.dat
+	deleted:    QC_states_for_jackknife_L_24_nP_100_state_7_energycutoff_0.37_one_param.dat
+	deleted:    QC_states_for_jackknife_L_24_nP_100_state_8_energycutoff_0.35_one_param.dat
+	deleted:    QC_states_for_jackknife_L_24_nP_100_state_8_energycutoff_0.37_one_param.dat
+	deleted:    QC_states_for_jackknife_L_24_nP_100_state_9_energycutoff_0.35_one_param.dat
+	deleted:    QC_states_for_jackknife_L_24_nP_100_state_9_energycutoff_0.37_one_param.dat
+	deleted:    QC_states_for_jackknife_L_24_nP_110_state_0_energycutoff_0.31_one_param.dat
+	deleted:    QC_states_for_jackknife_L_24_nP_110_state_0_energycutoff_0.33_one_param.dat
+	deleted:    QC_states_for_jackknife_L_24_nP_110_state_0_energycutoff_0.35_one_param.dat
+	deleted:    QC_states_for_jackknife_L_24_nP_110_state_0_energycutoff_0.37_one_param.dat
+	deleted:    QC_states_for_jackknife_L_24_nP_110_state_1_energycutoff_0.31_one_param.dat
+	deleted:    QC_states_for_jackknife_L_24_nP_110_state_1_energycutoff_0.33_one_param.dat
+	deleted:    QC_states_for_jackknife_L_24_nP_110_state_1_energycutoff_0.35_one_param.dat
+	deleted:    QC_states_for_jackknife_L_24_nP_110_state_1_energycutoff_0.37_one_param.dat
+	deleted:    QC_states_for_jackknife_L_24_nP_110_state_2_energycutoff_0.31_one_param.dat
+	deleted:    QC_states_for_jackknife_L_24_nP_110_state_2_energycutoff_0.33_one_param.dat
+	deleted:    QC_states_for_jackknife_L_24_nP_110_state_2_energycutoff_0.35_one_param.dat
+	deleted:    QC_states_for_jackknife_L_24_nP_110_state_2_energycutoff_0.37_one_param.dat
+	deleted:    QC_states_for_jackknife_L_24_nP_110_state_3_energycutoff_0.31_one_param.dat
+	deleted:    QC_states_for_jackknife_L_24_nP_110_state_3_energycutoff_0.33_one_param.dat
+	deleted:    QC_states_for_jackknife_L_24_nP_110_state_3_energycutoff_0.35_one_param.dat
+	deleted:    QC_states_for_jackknife_L_24_nP_110_state_3_energycutoff_0.37_one_param.dat
+	deleted:    QC_states_for_jackknife_L_24_nP_110_state_4_energycutoff_0.35_one_param.dat
+	deleted:    QC_states_for_jackknife_L_24_nP_110_state_4_energycutoff_0.37_one_param.dat
+	deleted:    QC_states_for_jackknife_L_24_nP_110_state_5_energycutoff_0.35_one_param.dat
+	deleted:    QC_states_for_jackknife_L_24_nP_110_state_5_energycutoff_0.37_one_param.dat
+	deleted:    QC_states_for_jackknife_L_24_nP_110_state_6_energycutoff_0.35_one_param.dat
+	deleted:    QC_states_for_jackknife_L_24_nP_110_state_6_energycutoff_0.37_one_param.dat
+	deleted:    QC_states_for_jackknife_L_24_nP_110_state_7_energycutoff_0.37_one_param.dat
+	deleted:    QC_states_for_jackknife_L_24_nP_110_state_8_energycutoff_0.37_one_param.dat
+	deleted:    QC_states_for_jackknife_L_24_nP_111_state_0_energycutoff_0.31_one_param.dat
+	deleted:    QC_states_for_jackknife_L_24_nP_111_state_0_energycutoff_0.33_one_param.dat
+	deleted:    QC_states_for_jackknife_L_24_nP_111_state_0_energycutoff_0.35_one_param.dat
+	deleted:    QC_states_for_jackknife_L_24_nP_111_state_0_energycutoff_0.37_one_param.dat
+	deleted:    QC_states_for_jackknife_L_24_nP_111_state_1_energycutoff_0.31_one_param.dat
+	deleted:    QC_states_for_jackknife_L_24_nP_111_state_1_energycutoff_0.33_one_param.dat
+	deleted:    QC_states_for_jackknife_L_24_nP_111_state_1_energycutoff_0.35_one_param.dat
+	deleted:    QC_states_for_jackknife_L_24_nP_111_state_1_energycutoff_0.37_one_param.dat
+	deleted:    QC_states_for_jackknife_L_24_nP_111_state_2_energycutoff_0.33_one_param.dat
+	deleted:    QC_states_for_jackknife_L_24_nP_111_state_2_energycutoff_0.35_one_param.dat
+	deleted:    QC_states_for_jackknife_L_24_nP_111_state_2_energycutoff_0.37_one_param.dat
+	deleted:    QC_states_for_jackknife_L_24_nP_111_state_3_energycutoff_0.33_one_param.dat
+	deleted:    QC_states_for_jackknife_L_24_nP_111_state_3_energycutoff_0.35_one_param.dat
+	deleted:    QC_states_for_jackknife_L_24_nP_111_state_3_energycutoff_0.37_one_param.dat
+	deleted:    QC_states_for_jackknife_L_24_nP_111_state_4_energycutoff_0.33_one_param.dat
+	deleted:    QC_states_for_jackknife_L_24_nP_111_state_4_energycutoff_0.35_one_param.dat
+	deleted:    QC_states_for_jackknife_L_24_nP_111_state_4_energycutoff_0.37_one_param.dat
+	deleted:    QC_states_for_jackknife_L_24_nP_111_state_5_energycutoff_0.33_one_param.dat
+	deleted:    QC_states_for_jackknife_L_24_nP_111_state_5_energycutoff_0.35_one_param.dat
+	deleted:    QC_states_for_jackknife_L_24_nP_111_state_5_energycutoff_0.37_one_param.dat
+	deleted:    QC_states_for_jackknife_L_24_nP_200_state_0_energycutoff_0.29_one_param.dat
+	deleted:    QC_states_for_jackknife_L_24_nP_200_state_0_energycutoff_0.31_one_param.dat
+	deleted:    QC_states_for_jackknife_L_24_nP_200_state_0_energycutoff_0.33_one_param.dat
+	deleted:    QC_states_for_jackknife_L_24_nP_200_state_0_energycutoff_0.35_one_param.dat
+	deleted:    QC_states_for_jackknife_L_24_nP_200_state_0_energycutoff_0.37_one_param.dat
+	deleted:    QC_states_for_jackknife_L_24_nP_200_state_1_energycutoff_0.29_one_param.dat
+	deleted:    QC_states_for_jackknife_L_24_nP_200_state_1_energycutoff_0.31_one_param.dat
+	deleted:    QC_states_for_jackknife_L_24_nP_200_state_1_energycutoff_0.33_one_param.dat
+	deleted:    QC_states_for_jackknife_L_24_nP_200_state_1_energycutoff_0.35_one_param.dat
+	deleted:    QC_states_for_jackknife_L_24_nP_200_state_1_energycutoff_0.37_one_param.dat
+	deleted:    QC_states_for_jackknife_L_24_nP_200_state_2_energycutoff_0.33_one_param.dat
+	deleted:    QC_states_for_jackknife_L_24_nP_200_state_2_energycutoff_0.35_one_param.dat
+	deleted:    QC_states_for_jackknife_L_24_nP_200_state_2_energycutoff_0.37_one_param.dat
+	deleted:    QC_states_for_jackknife_L_24_nP_200_state_3_energycutoff_0.33_one_param.dat
+	deleted:    QC_states_for_jackknife_L_24_nP_200_state_3_energycutoff_0.35_one_param.dat
+	deleted:    QC_states_for_jackknife_L_24_nP_200_state_3_energycutoff_0.37_one_param.dat
+	deleted:    QC_states_jackknifed_L_20_nP_000_energycutoff_0.29_one_param.dat
+	deleted:    QC_states_jackknifed_L_20_nP_000_energycutoff_0.31_one_param.dat
+	deleted:    QC_states_jackknifed_L_20_nP_000_energycutoff_0.33_one_param.dat
+	deleted:    QC_states_jackknifed_L_20_nP_000_energycutoff_0.35_one_param.dat
+	deleted:    QC_states_jackknifed_L_20_nP_000_energycutoff_0.37_one_param.dat
+	deleted:    QC_states_jackknifed_L_20_nP_100_energycutoff_0.29_one_param.dat
+	deleted:    QC_states_jackknifed_L_20_nP_100_energycutoff_0.31_one_param.dat
+	deleted:    QC_states_jackknifed_L_20_nP_100_energycutoff_0.33_one_param.dat
+	deleted:    QC_states_jackknifed_L_20_nP_100_energycutoff_0.35_one_param.dat
+	deleted:    QC_states_jackknifed_L_20_nP_100_energycutoff_0.37_one_param.dat
+	deleted:    QC_states_jackknifed_L_20_nP_110_energycutoff_0.29_one_param.dat
+	deleted:    QC_states_jackknifed_L_20_nP_110_energycutoff_0.31_one_param.dat
+	deleted:    QC_states_jackknifed_L_20_nP_110_energycutoff_0.33_one_param.dat
+	deleted:    QC_states_jackknifed_L_20_nP_110_energycutoff_0.35_one_param.dat
+	deleted:    QC_states_jackknifed_L_20_nP_110_energycutoff_0.37_one_param.dat
+	deleted:    QC_states_jackknifed_L_20_nP_111_energycutoff_0.29_one_param.dat
+	deleted:    QC_states_jackknifed_L_20_nP_111_energycutoff_0.31_one_param.dat
+	deleted:    QC_states_jackknifed_L_20_nP_111_energycutoff_0.33_one_param.dat
+	deleted:    QC_states_jackknifed_L_20_nP_111_energycutoff_0.35_one_param.dat
+	deleted:    QC_states_jackknifed_L_20_nP_111_energycutoff_0.37_one_param.dat
+	deleted:    QC_states_jackknifed_L_20_nP_200_energycutoff_0.29_one_param.dat
+	deleted:    QC_states_jackknifed_L_20_nP_200_energycutoff_0.31_one_param.dat
+	deleted:    QC_states_jackknifed_L_20_nP_200_energycutoff_0.33_one_param.dat
+	deleted:    QC_states_jackknifed_L_20_nP_200_energycutoff_0.35_one_param.dat
+	deleted:    QC_states_jackknifed_L_20_nP_200_energycutoff_0.37_one_param.dat
+	deleted:    QC_states_jackknifed_L_24_nP_000_energycutoff_0.29_one_param.dat
+	deleted:    QC_states_jackknifed_L_24_nP_000_energycutoff_0.31_one_param.dat
+	deleted:    QC_states_jackknifed_L_24_nP_000_energycutoff_0.33_one_param.dat
+	deleted:    QC_states_jackknifed_L_24_nP_000_energycutoff_0.35_one_param.dat
+	deleted:    QC_states_jackknifed_L_24_nP_000_energycutoff_0.37_one_param.dat
+	deleted:    QC_states_jackknifed_L_24_nP_100_energycutoff_0.29_one_param.dat
+	deleted:    QC_states_jackknifed_L_24_nP_100_energycutoff_0.31_one_param.dat
+	deleted:    QC_states_jackknifed_L_24_nP_100_energycutoff_0.33_one_param.dat
+	deleted:    QC_states_jackknifed_L_24_nP_100_energycutoff_0.35_one_param.dat
+	deleted:    QC_states_jackknifed_L_24_nP_100_energycutoff_0.37_one_param.dat
+	deleted:    QC_states_jackknifed_L_24_nP_110_energycutoff_0.29_one_param.dat
+	deleted:    QC_states_jackknifed_L_24_nP_110_energycutoff_0.31_one_param.dat
+	deleted:    QC_states_jackknifed_L_24_nP_110_energycutoff_0.33_one_param.dat
+	deleted:    QC_states_jackknifed_L_24_nP_110_energycutoff_0.35_one_param.dat
+	deleted:    QC_states_jackknifed_L_24_nP_110_energycutoff_0.37_one_param.dat
+	deleted:    QC_states_jackknifed_L_24_nP_111_energycutoff_0.29_one_param.dat
+	deleted:    QC_states_jackknifed_L_24_nP_111_energycutoff_0.31_one_param.dat
+	deleted:    QC_states_jackknifed_L_24_nP_111_energycutoff_0.33_one_param.dat
+	deleted:    QC_states_jackknifed_L_24_nP_111_energycutoff_0.35_one_param.dat
+	deleted:    QC_states_jackknifed_L_24_nP_111_energycutoff_0.37_one_param.dat
+	deleted:    QC_states_jackknifed_L_24_nP_200_energycutoff_0.29_one_param.dat
+	deleted:    QC_states_jackknifed_L_24_nP_200_energycutoff_0.31_one_param.dat
+	deleted:    QC_states_jackknifed_L_24_nP_200_energycutoff_0.33_one_param.dat
+	deleted:    QC_states_jackknifed_L_24_nP_200_energycutoff_0.35_one_param.dat
+	deleted:    QC_states_jackknifed_L_24_nP_200_energycutoff_0.37_one_param.dat
+	deleted:    cutoff_0.39/QC_states_for_jackknife_L_20_nP_000_state_0_energycutoff_0.39_one_param.dat
+	deleted:    cutoff_0.39/QC_states_for_jackknife_L_20_nP_000_state_1_energycutoff_0.39_one_param.dat
+	deleted:    cutoff_0.39/QC_states_for_jackknife_L_20_nP_000_state_2_energycutoff_0.39_one_param.dat
+	deleted:    cutoff_0.39/QC_states_for_jackknife_L_20_nP_100_state_0_energycutoff_0.39_one_param.dat
+	deleted:    cutoff_0.39/QC_states_for_jackknife_L_20_nP_100_state_1_energycutoff_0.39_one_param.dat
+	deleted:    cutoff_0.39/QC_states_for_jackknife_L_20_nP_100_state_2_energycutoff_0.39_one_param.dat
+	deleted:    cutoff_0.39/QC_states_for_jackknife_L_20_nP_100_state_3_energycutoff_0.39_one_param.dat
+	deleted:    cutoff_0.39/QC_states_for_jackknife_L_20_nP_100_state_4_energycutoff_0.39_one_param.dat
+	deleted:    cutoff_0.39/QC_states_for_jackknife_L_20_nP_100_state_5_energycutoff_0.39_one_param.dat
+	deleted:    cutoff_0.39/QC_states_for_jackknife_L_20_nP_100_state_6_energycutoff_0.39_one_param.dat
+	deleted:    cutoff_0.39/QC_states_for_jackknife_L_20_nP_100_state_7_energycutoff_0.39_one_param.dat
+	deleted:    cutoff_0.39/QC_states_for_jackknife_L_20_nP_100_state_8_energycutoff_0.39_one_param.dat
+	deleted:    cutoff_0.39/QC_states_for_jackknife_L_20_nP_110_state_0_energycutoff_0.39_one_param.dat
+	deleted:    cutoff_0.39/QC_states_for_jackknife_L_20_nP_110_state_1_energycutoff_0.39_one_param.dat
+	deleted:    cutoff_0.39/QC_states_for_jackknife_L_20_nP_110_state_2_energycutoff_0.39_one_param.dat
+	deleted:    cutoff_0.39/QC_states_for_jackknife_L_20_nP_110_state_3_energycutoff_0.39_one_param.dat
+	deleted:    cutoff_0.39/QC_states_for_jackknife_L_20_nP_110_state_4_energycutoff_0.39_one_param.dat
+	deleted:    cutoff_0.39/QC_states_for_jackknife_L_20_nP_110_state_5_energycutoff_0.39_one_param.dat
+	deleted:    cutoff_0.39/QC_states_for_jackknife_L_20_nP_111_state_0_energycutoff_0.39_one_param.dat
+	deleted:    cutoff_0.39/QC_states_for_jackknife_L_20_nP_111_state_1_energycutoff_0.39_one_param.dat
+	deleted:    cutoff_0.39/QC_states_for_jackknife_L_20_nP_111_state_2_energycutoff_0.39_one_param.dat
+	deleted:    cutoff_0.39/QC_states_for_jackknife_L_20_nP_111_state_3_energycutoff_0.39_one_param.dat
+	deleted:    cutoff_0.39/QC_states_for_jackknife_L_20_nP_111_state_4_energycutoff_0.39_one_param.dat
+	deleted:    cutoff_0.39/QC_states_for_jackknife_L_20_nP_200_state_0_energycutoff_0.39_one_param.dat
+	deleted:    cutoff_0.39/QC_states_for_jackknife_L_20_nP_200_state_1_energycutoff_0.39_one_param.dat
+	deleted:    cutoff_0.39/QC_states_for_jackknife_L_20_nP_200_state_2_energycutoff_0.39_one_param.dat
+	deleted:    cutoff_0.39/QC_states_for_jackknife_L_20_nP_200_state_3_energycutoff_0.39_one_param.dat
+	deleted:    cutoff_0.39/QC_states_for_jackknife_L_20_nP_200_state_4_energycutoff_0.39_one_param.dat
+	deleted:    cutoff_0.39/QC_states_for_jackknife_L_20_nP_200_state_5_energycutoff_0.39_one_param.dat
+	deleted:    cutoff_0.39/QC_states_for_jackknife_L_20_nP_200_state_6_energycutoff_0.39_one_param.dat
+	deleted:    cutoff_0.39/QC_states_for_jackknife_L_20_nP_200_state_7_energycutoff_0.39_one_param.dat
+	deleted:    cutoff_0.39/QC_states_for_jackknife_L_20_nP_200_state_8_energycutoff_0.39_one_param.dat
+	deleted:    cutoff_0.39/QC_states_for_jackknife_L_24_nP_000_state_0_energycutoff_0.39_one_param.dat
+	deleted:    cutoff_0.39/QC_states_for_jackknife_L_24_nP_000_state_1_energycutoff_0.39_one_param.dat
+	deleted:    cutoff_0.39/QC_states_for_jackknife_L_24_nP_000_state_2_energycutoff_0.39_one_param.dat
+	deleted:    cutoff_0.39/QC_states_for_jackknife_L_24_nP_000_state_3_energycutoff_0.39_one_param.dat
+	deleted:    cutoff_0.39/QC_states_for_jackknife_L_24_nP_000_state_4_energycutoff_0.39_one_param.dat
+	deleted:    cutoff_0.39/QC_states_for_jackknife_L_24_nP_000_state_5_energycutoff_0.39_one_param.dat
+	deleted:    cutoff_0.39/QC_states_for_jackknife_L_24_nP_000_state_6_energycutoff_0.39_one_param.dat
+	deleted:    cutoff_0.39/QC_states_for_jackknife_L_24_nP_100_state_0_energycutoff_0.39_one_param.dat
+	deleted:    cutoff_0.39/QC_states_for_jackknife_L_24_nP_100_state_10_energycutoff_0.39_one_param.dat
+	deleted:    cutoff_0.39/QC_states_for_jackknife_L_24_nP_100_state_11_energycutoff_0.39_one_param.dat
+	deleted:    cutoff_0.39/QC_states_for_jackknife_L_24_nP_100_state_12_energycutoff_0.39_one_param.dat
+	deleted:    cutoff_0.39/QC_states_for_jackknife_L_24_nP_100_state_13_energycutoff_0.39_one_param.dat
+	deleted:    cutoff_0.39/QC_states_for_jackknife_L_24_nP_100_state_1_energycutoff_0.39_one_param.dat
+	deleted:    cutoff_0.39/QC_states_for_jackknife_L_24_nP_100_state_2_energycutoff_0.39_one_param.dat
+	deleted:    cutoff_0.39/QC_states_for_jackknife_L_24_nP_100_state_3_energycutoff_0.39_one_param.dat
+	deleted:    cutoff_0.39/QC_states_for_jackknife_L_24_nP_100_state_4_energycutoff_0.39_one_param.dat
+	deleted:    cutoff_0.39/QC_states_for_jackknife_L_24_nP_100_state_5_energycutoff_0.39_one_param.dat
+	deleted:    cutoff_0.39/QC_states_for_jackknife_L_24_nP_100_state_6_energycutoff_0.39_one_param.dat
+	deleted:    cutoff_0.39/QC_states_for_jackknife_L_24_nP_100_state_7_energycutoff_0.39_one_param.dat
+	deleted:    cutoff_0.39/QC_states_for_jackknife_L_24_nP_100_state_8_energycutoff_0.39_one_param.dat
+	deleted:    cutoff_0.39/QC_states_for_jackknife_L_24_nP_100_state_9_energycutoff_0.39_one_param.dat
+	deleted:    cutoff_0.39/QC_states_for_jackknife_L_24_nP_110_state_0_energycutoff_0.39_one_param.dat
+	deleted:    cutoff_0.39/QC_states_for_jackknife_L_24_nP_110_state_1_energycutoff_0.39_one_param.dat
+	deleted:    cutoff_0.39/QC_states_for_jackknife_L_24_nP_110_state_2_energycutoff_0.39_one_param.dat
+	deleted:    cutoff_0.39/QC_states_for_jackknife_L_24_nP_110_state_3_energycutoff_0.39_one_param.dat
+	deleted:    cutoff_0.39/QC_states_for_jackknife_L_24_nP_110_state_4_energycutoff_0.39_one_param.dat
+	deleted:    cutoff_0.39/QC_states_for_jackknife_L_24_nP_110_state_5_energycutoff_0.39_one_param.dat
+	deleted:    cutoff_0.39/QC_states_for_jackknife_L_24_nP_110_state_6_energycutoff_0.39_one_param.dat
+	deleted:    cutoff_0.39/QC_states_for_jackknife_L_24_nP_110_state_7_energycutoff_0.39_one_param.dat
+	deleted:    cutoff_0.39/QC_states_for_jackknife_L_24_nP_110_state_8_energycutoff_0.39_one_param.dat
+	deleted:    cutoff_0.39/QC_states_for_jackknife_L_24_nP_111_state_0_energycutoff_0.39_one_param.dat
+	deleted:    cutoff_0.39/QC_states_for_jackknife_L_24_nP_111_state_1_energycutoff_0.39_one_param.dat
+	deleted:    cutoff_0.39/QC_states_for_jackknife_L_24_nP_111_state_2_energycutoff_0.39_one_param.dat
+	deleted:    cutoff_0.39/QC_states_for_jackknife_L_24_nP_111_state_3_energycutoff_0.39_one_param.dat
+	deleted:    cutoff_0.39/QC_states_for_jackknife_L_24_nP_111_state_4_energycutoff_0.39_one_param.dat
+	deleted:    cutoff_0.39/QC_states_for_jackknife_L_24_nP_111_state_5_energycutoff_0.39_one_param.dat
+	deleted:    cutoff_0.39/QC_states_for_jackknife_L_24_nP_200_state_0_energycutoff_0.39_one_param.dat
+	deleted:    cutoff_0.39/QC_states_for_jackknife_L_24_nP_200_state_1_energycutoff_0.39_one_param.dat
+	deleted:    cutoff_0.39/QC_states_for_jackknife_L_24_nP_200_state_2_energycutoff_0.39_one_param.dat
+	deleted:    cutoff_0.39/QC_states_for_jackknife_L_24_nP_200_state_3_energycutoff_0.39_one_param.dat
+	deleted:    cutoff_0.39/QC_states_jackknifed_L_20_nP_000_energycutoff_0.39_one_param.dat
+	deleted:    cutoff_0.39/QC_states_jackknifed_L_20_nP_100_energycutoff_0.39_one_param.dat
+	deleted:    cutoff_0.39/QC_states_jackknifed_L_20_nP_110_energycutoff_0.39_one_param.dat
+	deleted:    cutoff_0.39/QC_states_jackknifed_L_20_nP_111_energycutoff_0.39_one_param.dat
+	deleted:    cutoff_0.39/QC_states_jackknifed_L_20_nP_200_energycutoff_0.39_one_param.dat
+	deleted:    cutoff_0.39/QC_states_jackknifed_L_24_nP_000_energycutoff_0.39_one_param.dat
+	deleted:    cutoff_0.39/QC_states_jackknifed_L_24_nP_100_energycutoff_0.39_one_param.dat
+	deleted:    cutoff_0.39/QC_states_jackknifed_L_24_nP_110_energycutoff_0.39_one_param.dat
+	deleted:    cutoff_0.39/QC_states_jackknifed_L_24_nP_111_energycutoff_0.39_one_param.dat
+	deleted:    cutoff_0.39/QC_states_jackknifed_L_24_nP_200_energycutoff_0.39_one_param.dat
+	deleted:    cutoff_0.39/chisquare_vs_K3iso1_nP_000.dat
+	deleted:    cutoff_0.39/chisquare_vs_K3iso1_nP_000_1.dat
+	modified:   fitting_log
+	modified:   state0_fitting/QC_states_for_jackknife_L_20_nP_000_state_0_energycutoff_0.39_one_param.dat
+	modified:   state0_fitting/QC_states_for_jackknife_L_20_nP_000_state_1_energycutoff_0.39_one_param.dat
+	modified:   state0_fitting/QC_states_for_jackknife_L_20_nP_000_state_2_energycutoff_0.39_one_param.dat
+	modified:   state0_fitting/QC_states_for_jackknife_L_20_nP_100_state_0_energycutoff_0.39_one_param.dat
+	modified:   state0_fitting/QC_states_for_jackknife_L_20_nP_100_state_1_energycutoff_0.39_one_param.dat
+	modified:   state0_fitting/QC_states_for_jackknife_L_20_nP_100_state_2_energycutoff_0.39_one_param.dat
+	modified:   state0_fitting/QC_states_for_jackknife_L_20_nP_100_state_3_energycutoff_0.39_one_param.dat
+	modified:   state0_fitting/QC_states_for_jackknife_L_20_nP_100_state_4_energycutoff_0.39_one_param.dat
+	modified:   state0_fitting/QC_states_for_jackknife_L_20_nP_100_state_5_energycutoff_0.39_one_param.dat
+	modified:   state0_fitting/QC_states_for_jackknife_L_20_nP_100_state_6_energycutoff_0.39_one_param.dat
+	modified:   state0_fitting/QC_states_for_jackknife_L_20_nP_100_state_7_energycutoff_0.39_one_param.dat
+	modified:   state0_fitting/QC_states_for_jackknife_L_20_nP_100_state_8_energycutoff_0.39_one_param.dat
+	modified:   state0_fitting/QC_states_for_jackknife_L_20_nP_110_state_0_energycutoff_0.39_one_param.dat
+	modified:   state0_fitting/QC_states_for_jackknife_L_20_nP_110_state_1_energycutoff_0.39_one_param.dat
+	modified:   state0_fitting/QC_states_for_jackknife_L_20_nP_110_state_2_energycutoff_0.39_one_param.dat
+	modified:   state0_fitting/QC_states_for_jackknife_L_20_nP_110_state_3_energycutoff_0.39_one_param.dat
+	modified:   state0_fitting/QC_states_for_jackknife_L_20_nP_110_state_4_energycutoff_0.39_one_param.dat
+	modified:   state0_fitting/QC_states_for_jackknife_L_20_nP_110_state_5_energycutoff_0.39_one_param.dat
+	modified:   state0_fitting/QC_states_for_jackknife_L_20_nP_111_state_0_energycutoff_0.39_one_param.dat
+	modified:   state0_fitting/QC_states_for_jackknife_L_20_nP_111_state_1_energycutoff_0.39_one_param.dat
+	modified:   state0_fitting/QC_states_for_jackknife_L_20_nP_111_state_2_energycutoff_0.39_one_param.dat
+	modified:   state0_fitting/QC_states_for_jackknife_L_20_nP_111_state_3_energycutoff_0.39_one_param.dat
+	modified:   state0_fitting/QC_states_for_jackknife_L_20_nP_111_state_4_energycutoff_0.39_one_param.dat
+	modified:   state0_fitting/QC_states_for_jackknife_L_20_nP_200_state_0_energycutoff_0.39_one_param.dat
+	modified:   state0_fitting/QC_states_for_jackknife_L_20_nP_200_state_1_energycutoff_0.39_one_param.dat
+	modified:   state0_fitting/QC_states_for_jackknife_L_20_nP_200_state_2_energycutoff_0.39_one_param.dat
+	modified:   state0_fitting/QC_states_for_jackknife_L_20_nP_200_state_3_energycutoff_0.39_one_param.dat
+	modified:   state0_fitting/QC_states_for_jackknife_L_20_nP_200_state_4_energycutoff_0.39_one_param.dat
+	modified:   state0_fitting/QC_states_for_jackknife_L_20_nP_200_state_5_energycutoff_0.39_one_param.dat
+	modified:   state0_fitting/QC_states_for_jackknife_L_20_nP_200_state_6_energycutoff_0.39_one_param.dat
+	modified:   state0_fitting/QC_states_for_jackknife_L_20_nP_200_state_7_energycutoff_0.39_one_param.dat
+	modified:   state0_fitting/QC_states_for_jackknife_L_20_nP_200_state_8_energycutoff_0.39_one_param.dat
+	modified:   state0_fitting/QC_states_for_jackknife_L_24_nP_000_state_0_energycutoff_0.39_one_param.dat
+	modified:   state0_fitting/QC_states_for_jackknife_L_24_nP_000_state_1_energycutoff_0.39_one_param.dat
+	modified:   state0_fitting/QC_states_for_jackknife_L_24_nP_000_state_2_energycutoff_0.39_one_param.dat
+	modified:   state0_fitting/QC_states_for_jackknife_L_24_nP_000_state_3_energycutoff_0.39_one_param.dat
+	modified:   state0_fitting/QC_states_for_jackknife_L_24_nP_000_state_4_energycutoff_0.39_one_param.dat
+	modified:   state0_fitting/QC_states_for_jackknife_L_24_nP_000_state_5_energycutoff_0.39_one_param.dat
+	modified:   state0_fitting/QC_states_for_jackknife_L_24_nP_000_state_6_energycutoff_0.39_one_param.dat
+	modified:   state0_fitting/QC_states_for_jackknife_L_24_nP_100_state_0_energycutoff_0.39_one_param.dat
+	deleted:    state0_fitting/QC_states_for_jackknife_L_24_nP_100_state_10_energycutoff_0.39_one_param.dat
+	deleted:    state0_fitting/QC_states_for_jackknife_L_24_nP_100_state_11_energycutoff_0.39_one_param.dat
+	deleted:    state0_fitting/QC_states_for_jackknife_L_24_nP_100_state_12_energycutoff_0.39_one_param.dat
+	deleted:    state0_fitting/QC_states_for_jackknife_L_24_nP_100_state_13_energycutoff_0.39_one_param.dat
+	modified:   state0_fitting/QC_states_for_jackknife_L_24_nP_100_state_1_energycutoff_0.39_one_param.dat
+	modified:   state0_fitting/QC_states_for_jackknife_L_24_nP_100_state_2_energycutoff_0.39_one_param.dat
+	modified:   state0_fitting/QC_states_for_jackknife_L_24_nP_100_state_3_energycutoff_0.39_one_param.dat
+	modified:   state0_fitting/QC_states_for_jackknife_L_24_nP_100_state_4_energycutoff_0.39_one_param.dat
+	deleted:    state0_fitting/QC_states_for_jackknife_L_24_nP_100_state_5_energycutoff_0.39_one_param.dat
+	deleted:    state0_fitting/QC_states_for_jackknife_L_24_nP_100_state_6_energycutoff_0.39_one_param.dat
+	deleted:    state0_fitting/QC_states_for_jackknife_L_24_nP_100_state_7_energycutoff_0.39_one_param.dat
+	deleted:    state0_fitting/QC_states_for_jackknife_L_24_nP_100_state_8_energycutoff_0.39_one_param.dat
+	deleted:    state0_fitting/QC_states_for_jackknife_L_24_nP_100_state_9_energycutoff_0.39_one_param.dat
+	modified:   state0_fitting/QC_states_for_jackknife_L_24_nP_110_state_0_energycutoff_0.39_one_param.dat
+	modified:   state0_fitting/QC_states_for_jackknife_L_24_nP_110_state_1_energycutoff_0.39_one_param.dat
+	modified:   state0_fitting/QC_states_for_jackknife_L_24_nP_110_state_2_energycutoff_0.39_one_param.dat
+	modified:   state0_fitting/QC_states_for_jackknife_L_24_nP_110_state_3_energycutoff_0.39_one_param.dat
+	modified:   state0_fitting/QC_states_for_jackknife_L_24_nP_110_state_4_energycutoff_0.39_one_param.dat
+	modified:   state0_fitting/QC_states_for_jackknife_L_24_nP_110_state_5_energycutoff_0.39_one_param.dat
+	modified:   state0_fitting/QC_states_for_jackknife_L_24_nP_110_state_6_energycutoff_0.39_one_param.dat
+	modified:   state0_fitting/QC_states_for_jackknife_L_24_nP_110_state_7_energycutoff_0.39_one_param.dat
+	modified:   state0_fitting/QC_states_for_jackknife_L_24_nP_110_state_8_energycutoff_0.39_one_param.dat
+	modified:   state0_fitting/QC_states_for_jackknife_L_24_nP_111_state_0_energycutoff_0.39_one_param.dat
+	modified:   state0_fitting/QC_states_for_jackknife_L_24_nP_111_state_1_energycutoff_0.39_one_param.dat
+	modified:   state0_fitting/QC_states_for_jackknife_L_24_nP_111_state_2_energycutoff_0.39_one_param.dat
+	modified:   state0_fitting/QC_states_for_jackknife_L_24_nP_111_state_3_energycutoff_0.39_one_param.dat
+	modified:   state0_fitting/QC_states_for_jackknife_L_24_nP_111_state_4_energycutoff_0.39_one_param.dat
+	modified:   state0_fitting/QC_states_for_jackknife_L_24_nP_111_state_5_energycutoff_0.39_one_param.dat
+	modified:   state0_fitting/QC_states_for_jackknife_L_24_nP_200_state_0_energycutoff_0.39_one_param.dat
+	modified:   state0_fitting/QC_states_for_jackknife_L_24_nP_200_state_1_energycutoff_0.39_one_param.dat
+	modified:   state0_fitting/QC_states_for_jackknife_L_24_nP_200_state_2_energycutoff_0.39_one_param.dat
+	modified:   state0_fitting/QC_states_for_jackknife_L_24_nP_200_state_3_energycutoff_0.39_one_param.dat
+	modified:   state0_fitting/QC_states_jackknifed_L_20_nP_000_energycutoff_0.39_one_param.dat
+	modified:   state0_fitting/QC_states_jackknifed_L_20_nP_100_energycutoff_0.39_one_param.dat
+	modified:   state0_fitting/QC_states_jackknifed_L_20_nP_110_energycutoff_0.39_one_param.dat
+	modified:   state0_fitting/QC_states_jackknifed_L_20_nP_111_energycutoff_0.39_one_param.dat
+	modified:   state0_fitting/QC_states_jackknifed_L_20_nP_200_energycutoff_0.39_one_param.dat
+	modified:   state0_fitting/QC_states_jackknifed_L_24_nP_000_energycutoff_0.39_one_param.dat
+	modified:   state0_fitting/QC_states_jackknifed_L_24_nP_100_energycutoff_0.39_one_param.dat
+	modified:   state0_fitting/QC_states_jackknifed_L_24_nP_110_energycutoff_0.39_one_param.dat
+	modified:   state0_fitting/QC_states_jackknifed_L_24_nP_111_energycutoff_0.39_one_param.dat
+	modified:   state0_fitting/QC_states_jackknifed_L_24_nP_200_energycutoff_0.39_one_param.dat
+	modified:   state0_fitting/fitting_log
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_000_state_0_energycutoff_0.29_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_000_state_0_energycutoff_0.31_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_000_state_0_energycutoff_0.33_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_000_state_0_energycutoff_0.35_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_000_state_0_energycutoff_0.37_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_000_state_1_energycutoff_0.35_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_000_state_1_energycutoff_0.37_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_000_state_2_energycutoff_0.37_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_100_state_0_energycutoff_0.31_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_100_state_0_energycutoff_0.33_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_100_state_0_energycutoff_0.35_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_100_state_0_energycutoff_0.37_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_100_state_1_energycutoff_0.31_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_100_state_1_energycutoff_0.33_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_100_state_1_energycutoff_0.35_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_100_state_1_energycutoff_0.37_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_100_state_2_energycutoff_0.37_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_100_state_3_energycutoff_0.37_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_100_state_4_energycutoff_0.37_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_110_state_0_energycutoff_0.31_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_110_state_0_energycutoff_0.33_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_110_state_0_energycutoff_0.35_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_110_state_0_energycutoff_0.37_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_110_state_1_energycutoff_0.33_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_110_state_1_energycutoff_0.35_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_110_state_1_energycutoff_0.37_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_110_state_2_energycutoff_0.33_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_110_state_2_energycutoff_0.35_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_110_state_2_energycutoff_0.37_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_110_state_3_energycutoff_0.33_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_110_state_3_energycutoff_0.35_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_110_state_3_energycutoff_0.37_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_110_state_4_energycutoff_0.37_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_111_state_0_energycutoff_0.33_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_111_state_0_energycutoff_0.35_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_111_state_0_energycutoff_0.37_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_111_state_1_energycutoff_0.33_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_111_state_1_energycutoff_0.35_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_111_state_1_energycutoff_0.37_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_111_state_2_energycutoff_0.35_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_111_state_2_energycutoff_0.37_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_111_state_3_energycutoff_0.35_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_111_state_3_energycutoff_0.37_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_111_state_4_energycutoff_0.37_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_200_state_0_energycutoff_0.29_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_200_state_0_energycutoff_0.31_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_200_state_0_energycutoff_0.33_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_200_state_0_energycutoff_0.35_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_200_state_0_energycutoff_0.37_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_200_state_1_energycutoff_0.31_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_200_state_1_energycutoff_0.33_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_200_state_1_energycutoff_0.35_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_200_state_1_energycutoff_0.37_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_200_state_2_energycutoff_0.33_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_200_state_2_energycutoff_0.35_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_200_state_2_energycutoff_0.37_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_200_state_3_energycutoff_0.35_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_200_state_3_energycutoff_0.37_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_200_state_4_energycutoff_0.37_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_200_state_5_energycutoff_0.37_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_200_state_6_energycutoff_0.37_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_000_state_0_energycutoff_0.29_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_000_state_0_energycutoff_0.31_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_000_state_0_energycutoff_0.33_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_000_state_0_energycutoff_0.35_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_000_state_0_energycutoff_0.37_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_000_state_1_energycutoff_0.33_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_000_state_1_energycutoff_0.35_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_000_state_1_energycutoff_0.37_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_000_state_2_energycutoff_0.33_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_000_state_2_energycutoff_0.35_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_000_state_2_energycutoff_0.37_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_000_state_3_energycutoff_0.37_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_100_state_0_energycutoff_0.29_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_100_state_0_energycutoff_0.31_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_100_state_0_energycutoff_0.33_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_100_state_0_energycutoff_0.35_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_100_state_0_energycutoff_0.37_two_params.dat
+	deleted:    ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_100_state_10_energycutoff_0.37_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_100_state_1_energycutoff_0.29_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_100_state_1_energycutoff_0.31_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_100_state_1_energycutoff_0.33_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_100_state_1_energycutoff_0.35_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_100_state_1_energycutoff_0.37_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_100_state_2_energycutoff_0.29_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_100_state_2_energycutoff_0.31_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_100_state_2_energycutoff_0.33_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_100_state_2_energycutoff_0.35_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_100_state_2_energycutoff_0.37_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_100_state_3_energycutoff_0.35_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_100_state_3_energycutoff_0.37_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_100_state_4_energycutoff_0.35_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_100_state_4_energycutoff_0.37_two_params.dat
+	deleted:    ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_100_state_5_energycutoff_0.35_two_params.dat
+	deleted:    ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_100_state_5_energycutoff_0.37_two_params.dat
+	deleted:    ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_100_state_6_energycutoff_0.35_two_params.dat
+	deleted:    ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_100_state_6_energycutoff_0.37_two_params.dat
+	deleted:    ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_100_state_7_energycutoff_0.35_two_params.dat
+	deleted:    ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_100_state_7_energycutoff_0.37_two_params.dat
+	deleted:    ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_100_state_8_energycutoff_0.35_two_params.dat
+	deleted:    ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_100_state_8_energycutoff_0.37_two_params.dat
+	deleted:    ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_100_state_9_energycutoff_0.35_two_params.dat
+	deleted:    ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_100_state_9_energycutoff_0.37_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_110_state_0_energycutoff_0.31_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_110_state_0_energycutoff_0.33_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_110_state_0_energycutoff_0.35_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_110_state_0_energycutoff_0.37_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_110_state_1_energycutoff_0.31_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_110_state_1_energycutoff_0.33_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_110_state_1_energycutoff_0.35_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_110_state_1_energycutoff_0.37_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_110_state_2_energycutoff_0.31_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_110_state_2_energycutoff_0.33_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_110_state_2_energycutoff_0.35_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_110_state_2_energycutoff_0.37_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_110_state_3_energycutoff_0.31_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_110_state_3_energycutoff_0.33_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_110_state_3_energycutoff_0.35_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_110_state_3_energycutoff_0.37_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_110_state_4_energycutoff_0.35_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_110_state_4_energycutoff_0.37_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_110_state_5_energycutoff_0.35_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_110_state_5_energycutoff_0.37_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_110_state_6_energycutoff_0.35_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_110_state_6_energycutoff_0.37_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_110_state_7_energycutoff_0.37_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_110_state_8_energycutoff_0.37_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_111_state_0_energycutoff_0.31_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_111_state_0_energycutoff_0.33_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_111_state_0_energycutoff_0.35_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_111_state_0_energycutoff_0.37_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_111_state_1_energycutoff_0.31_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_111_state_1_energycutoff_0.33_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_111_state_1_energycutoff_0.35_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_111_state_1_energycutoff_0.37_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_111_state_2_energycutoff_0.33_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_111_state_2_energycutoff_0.35_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_111_state_2_energycutoff_0.37_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_111_state_3_energycutoff_0.33_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_111_state_3_energycutoff_0.35_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_111_state_3_energycutoff_0.37_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_111_state_4_energycutoff_0.33_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_111_state_4_energycutoff_0.35_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_111_state_4_energycutoff_0.37_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_111_state_5_energycutoff_0.33_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_111_state_5_energycutoff_0.35_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_111_state_5_energycutoff_0.37_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_200_state_0_energycutoff_0.29_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_200_state_0_energycutoff_0.31_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_200_state_0_energycutoff_0.33_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_200_state_0_energycutoff_0.35_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_200_state_0_energycutoff_0.37_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_200_state_1_energycutoff_0.29_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_200_state_1_energycutoff_0.31_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_200_state_1_energycutoff_0.33_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_200_state_1_energycutoff_0.35_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_200_state_1_energycutoff_0.37_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_200_state_2_energycutoff_0.33_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_200_state_2_energycutoff_0.35_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_200_state_2_energycutoff_0.37_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_200_state_3_energycutoff_0.33_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_200_state_3_energycutoff_0.35_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_200_state_3_energycutoff_0.37_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_jackknifed_L_20_nP_000_energycutoff_0.29_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_jackknifed_L_20_nP_000_energycutoff_0.31_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_jackknifed_L_20_nP_000_energycutoff_0.33_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_jackknifed_L_20_nP_000_energycutoff_0.35_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_jackknifed_L_20_nP_000_energycutoff_0.37_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_jackknifed_L_20_nP_100_energycutoff_0.29_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_jackknifed_L_20_nP_100_energycutoff_0.31_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_jackknifed_L_20_nP_100_energycutoff_0.33_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_jackknifed_L_20_nP_100_energycutoff_0.35_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_jackknifed_L_20_nP_100_energycutoff_0.37_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_jackknifed_L_20_nP_110_energycutoff_0.29_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_jackknifed_L_20_nP_110_energycutoff_0.31_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_jackknifed_L_20_nP_110_energycutoff_0.33_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_jackknifed_L_20_nP_110_energycutoff_0.35_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_jackknifed_L_20_nP_110_energycutoff_0.37_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_jackknifed_L_20_nP_111_energycutoff_0.29_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_jackknifed_L_20_nP_111_energycutoff_0.31_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_jackknifed_L_20_nP_111_energycutoff_0.33_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_jackknifed_L_20_nP_111_energycutoff_0.35_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_jackknifed_L_20_nP_111_energycutoff_0.37_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_jackknifed_L_20_nP_200_energycutoff_0.29_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_jackknifed_L_20_nP_200_energycutoff_0.31_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_jackknifed_L_20_nP_200_energycutoff_0.33_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_jackknifed_L_20_nP_200_energycutoff_0.35_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_jackknifed_L_20_nP_200_energycutoff_0.37_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_jackknifed_L_24_nP_000_energycutoff_0.29_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_jackknifed_L_24_nP_000_energycutoff_0.31_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_jackknifed_L_24_nP_000_energycutoff_0.33_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_jackknifed_L_24_nP_000_energycutoff_0.35_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_jackknifed_L_24_nP_000_energycutoff_0.37_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_jackknifed_L_24_nP_100_energycutoff_0.29_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_jackknifed_L_24_nP_100_energycutoff_0.31_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_jackknifed_L_24_nP_100_energycutoff_0.33_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_jackknifed_L_24_nP_100_energycutoff_0.35_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_jackknifed_L_24_nP_100_energycutoff_0.37_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_jackknifed_L_24_nP_110_energycutoff_0.29_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_jackknifed_L_24_nP_110_energycutoff_0.31_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_jackknifed_L_24_nP_110_energycutoff_0.33_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_jackknifed_L_24_nP_110_energycutoff_0.35_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_jackknifed_L_24_nP_110_energycutoff_0.37_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_jackknifed_L_24_nP_111_energycutoff_0.29_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_jackknifed_L_24_nP_111_energycutoff_0.31_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_jackknifed_L_24_nP_111_energycutoff_0.33_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_jackknifed_L_24_nP_111_energycutoff_0.35_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_jackknifed_L_24_nP_111_energycutoff_0.37_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_jackknifed_L_24_nP_200_energycutoff_0.29_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_jackknifed_L_24_nP_200_energycutoff_0.31_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_jackknifed_L_24_nP_200_energycutoff_0.33_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_jackknifed_L_24_nP_200_energycutoff_0.35_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/QC_states_jackknifed_L_24_nP_200_energycutoff_0.37_two_params.dat
+	modified:   ../QC_states_twoparams_fitting_L_20_24/fitting_log
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	../../lattice_data/KKpi_interacting_spectrum/twoptvar_analysis/masses/temp_masses/
+	../F3_for_pole_KKpi_L24/F3_fixer.py
+	../F3_for_pole_KKpi_L24/backup.tar.xz
+	../F3_for_pole_KKpi_L24/backup/
+	../F3_for_pole_KKpi_L24/temp/cutoff_at_KKpipi/
+	../F3_for_pole_KKpi_L24/ultraHQ_F3_for_pole_KKpi_L24_nP_100_0.dat
+	../F3_for_pole_KKpi_L24/ultraHQ_F3_for_pole_KKpi_L24_nP_100_1.dat
+	../F3_for_pole_KKpi_L24/ultraHQ_F3_for_pole_KKpi_L24_nP_100_2.dat
+	../F3_for_pole_KKpi_L24/ultraHQ_F3_for_pole_KKpi_L24_nP_110_0.dat
+	../F3_for_pole_KKpi_L24/ultraHQ_F3_for_pole_KKpi_L24_nP_110_1.dat
+	../F3_for_pole_KKpi_L24/ultraHQ_F3_for_pole_KKpi_L24_nP_110_2.dat
+	../F3_for_pole_KKpi_L24/ultraHQ_F3_for_pole_KKpi_L24_nP_110_3.dat
+	../F3_for_pole_KKpi_L24/ultraHQ_F3_for_pole_KKpi_L24_nP_111_0.dat
+	../F3_for_pole_KKpi_L24/ultraHQ_F3_for_pole_KKpi_L24_nP_111_1.dat
+	../F3_for_pole_KKpi_L24/ultraHQ_F3_for_pole_KKpi_L24_nP_200_0.dat
+	../F3_for_pole_KKpi_L24/ultraHQ_F3_for_pole_KKpi_L24_nP_200_1.dat
+	../F3inv_poles_L24/temp/
+	.gitattributes
+	cutoff_0.29/
+	cutoff_0.31/
+	cutoff_0.33/
+	cutoff_0.35/
+	cutoff_0.37/
+	old_fitting_log
+	state0_fitting/KKpi_spectrum_plot_with_L20_and_L24_with_QC_states.pdf
+	state0_fitting/L20_L24_spectrum_plotter.py
+	state0_fitting/diff_plot.pdf
+	state0_fitting/spectrum_checker.py
+	temp_file_out
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_000_state_1_energycutoff_0.29_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_000_state_1_energycutoff_0.31_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_000_state_1_energycutoff_0.33_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_000_state_2_energycutoff_0.29_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_000_state_2_energycutoff_0.31_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_000_state_2_energycutoff_0.33_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_000_state_2_energycutoff_0.35_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_000_state_3_energycutoff_0.29_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_000_state_3_energycutoff_0.31_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_000_state_3_energycutoff_0.33_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_000_state_3_energycutoff_0.35_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_000_state_3_energycutoff_0.37_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_000_state_4_energycutoff_0.29_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_000_state_4_energycutoff_0.31_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_000_state_4_energycutoff_0.33_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_000_state_4_energycutoff_0.35_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_000_state_4_energycutoff_0.37_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_100_state_0_energycutoff_0.29_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_100_state_10_energycutoff_0.29_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_100_state_10_energycutoff_0.31_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_100_state_10_energycutoff_0.33_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_100_state_10_energycutoff_0.35_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_100_state_10_energycutoff_0.37_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_100_state_1_energycutoff_0.29_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_100_state_2_energycutoff_0.29_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_100_state_2_energycutoff_0.31_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_100_state_2_energycutoff_0.33_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_100_state_2_energycutoff_0.35_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_100_state_3_energycutoff_0.29_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_100_state_3_energycutoff_0.31_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_100_state_3_energycutoff_0.33_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_100_state_3_energycutoff_0.35_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_100_state_4_energycutoff_0.29_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_100_state_4_energycutoff_0.31_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_100_state_4_energycutoff_0.33_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_100_state_4_energycutoff_0.35_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_100_state_5_energycutoff_0.29_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_100_state_5_energycutoff_0.31_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_100_state_5_energycutoff_0.33_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_100_state_5_energycutoff_0.35_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_100_state_5_energycutoff_0.37_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_100_state_6_energycutoff_0.29_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_100_state_6_energycutoff_0.31_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_100_state_6_energycutoff_0.33_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_100_state_6_energycutoff_0.35_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_100_state_6_energycutoff_0.37_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_100_state_7_energycutoff_0.29_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_100_state_7_energycutoff_0.31_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_100_state_7_energycutoff_0.33_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_100_state_7_energycutoff_0.35_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_100_state_7_energycutoff_0.37_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_100_state_8_energycutoff_0.29_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_100_state_8_energycutoff_0.31_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_100_state_8_energycutoff_0.33_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_100_state_8_energycutoff_0.35_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_100_state_8_energycutoff_0.37_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_100_state_9_energycutoff_0.29_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_100_state_9_energycutoff_0.31_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_100_state_9_energycutoff_0.33_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_100_state_9_energycutoff_0.35_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_100_state_9_energycutoff_0.37_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_110_state_0_energycutoff_0.29_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_110_state_1_energycutoff_0.29_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_110_state_1_energycutoff_0.31_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_110_state_2_energycutoff_0.29_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_110_state_2_energycutoff_0.31_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_110_state_3_energycutoff_0.29_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_110_state_3_energycutoff_0.31_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_110_state_4_energycutoff_0.29_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_110_state_4_energycutoff_0.31_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_110_state_4_energycutoff_0.33_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_110_state_4_energycutoff_0.35_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_110_state_5_energycutoff_0.29_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_110_state_5_energycutoff_0.31_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_110_state_5_energycutoff_0.33_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_110_state_5_energycutoff_0.35_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_110_state_5_energycutoff_0.37_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_111_state_0_energycutoff_0.29_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_111_state_0_energycutoff_0.31_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_111_state_1_energycutoff_0.29_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_111_state_1_energycutoff_0.31_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_111_state_2_energycutoff_0.29_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_111_state_2_energycutoff_0.31_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_111_state_2_energycutoff_0.33_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_111_state_3_energycutoff_0.29_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_111_state_3_energycutoff_0.31_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_111_state_3_energycutoff_0.33_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_111_state_4_energycutoff_0.29_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_111_state_4_energycutoff_0.31_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_111_state_4_energycutoff_0.33_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_111_state_4_energycutoff_0.35_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_200_state_1_energycutoff_0.29_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_200_state_2_energycutoff_0.29_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_200_state_2_energycutoff_0.31_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_200_state_3_energycutoff_0.29_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_200_state_3_energycutoff_0.31_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_200_state_3_energycutoff_0.33_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_200_state_4_energycutoff_0.29_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_200_state_4_energycutoff_0.31_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_200_state_4_energycutoff_0.33_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_200_state_4_energycutoff_0.35_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_200_state_5_energycutoff_0.29_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_200_state_5_energycutoff_0.31_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_200_state_5_energycutoff_0.33_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_200_state_5_energycutoff_0.35_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_200_state_6_energycutoff_0.29_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_200_state_6_energycutoff_0.31_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_200_state_6_energycutoff_0.33_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_200_state_6_energycutoff_0.35_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_200_state_7_energycutoff_0.29_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_200_state_7_energycutoff_0.31_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_200_state_7_energycutoff_0.33_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_200_state_7_energycutoff_0.35_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_200_state_7_energycutoff_0.37_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_200_state_8_energycutoff_0.29_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_200_state_8_energycutoff_0.31_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_200_state_8_energycutoff_0.33_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_200_state_8_energycutoff_0.35_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_20_nP_200_state_8_energycutoff_0.37_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_000_state_1_energycutoff_0.29_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_000_state_1_energycutoff_0.31_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_000_state_2_energycutoff_0.29_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_000_state_2_energycutoff_0.31_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_000_state_3_energycutoff_0.29_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_000_state_3_energycutoff_0.31_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_000_state_3_energycutoff_0.33_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_000_state_3_energycutoff_0.35_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_000_state_4_energycutoff_0.29_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_000_state_4_energycutoff_0.31_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_000_state_4_energycutoff_0.33_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_000_state_4_energycutoff_0.35_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_000_state_4_energycutoff_0.37_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_000_state_5_energycutoff_0.29_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_000_state_5_energycutoff_0.31_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_000_state_5_energycutoff_0.33_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_000_state_5_energycutoff_0.35_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_000_state_5_energycutoff_0.37_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_000_state_6_energycutoff_0.29_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_000_state_6_energycutoff_0.31_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_000_state_6_energycutoff_0.33_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_000_state_6_energycutoff_0.35_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_000_state_6_energycutoff_0.37_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_000_state_7_energycutoff_0.29_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_000_state_7_energycutoff_0.31_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_000_state_7_energycutoff_0.33_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_000_state_7_energycutoff_0.35_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_000_state_7_energycutoff_0.37_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_100_state_3_energycutoff_0.29_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_100_state_3_energycutoff_0.31_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_100_state_3_energycutoff_0.33_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_100_state_4_energycutoff_0.29_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_100_state_4_energycutoff_0.31_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_100_state_4_energycutoff_0.33_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_110_state_0_energycutoff_0.29_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_110_state_1_energycutoff_0.29_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_110_state_2_energycutoff_0.29_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_110_state_3_energycutoff_0.29_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_110_state_4_energycutoff_0.29_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_110_state_4_energycutoff_0.31_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_110_state_4_energycutoff_0.33_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_110_state_5_energycutoff_0.29_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_110_state_5_energycutoff_0.31_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_110_state_5_energycutoff_0.33_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_110_state_6_energycutoff_0.29_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_110_state_6_energycutoff_0.31_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_110_state_6_energycutoff_0.33_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_110_state_7_energycutoff_0.29_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_110_state_7_energycutoff_0.31_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_110_state_7_energycutoff_0.33_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_110_state_7_energycutoff_0.35_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_110_state_8_energycutoff_0.29_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_110_state_8_energycutoff_0.31_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_110_state_8_energycutoff_0.33_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_110_state_8_energycutoff_0.35_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_111_state_0_energycutoff_0.29_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_111_state_1_energycutoff_0.29_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_111_state_2_energycutoff_0.29_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_111_state_2_energycutoff_0.31_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_111_state_3_energycutoff_0.29_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_111_state_3_energycutoff_0.31_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_111_state_4_energycutoff_0.29_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_111_state_4_energycutoff_0.31_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_111_state_5_energycutoff_0.29_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_111_state_5_energycutoff_0.31_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_200_state_2_energycutoff_0.29_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_200_state_2_energycutoff_0.31_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_200_state_3_energycutoff_0.29_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/QC_states_for_jackknife_L_24_nP_200_state_3_energycutoff_0.31_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/old_fitting_log
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_20_nP_000_state_0_energycutoff_0.29_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_20_nP_000_state_0_energycutoff_0.31_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_20_nP_000_state_0_energycutoff_0.33_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_20_nP_000_state_0_energycutoff_0.35_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_20_nP_000_state_0_energycutoff_0.37_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_20_nP_000_state_1_energycutoff_0.35_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_20_nP_000_state_1_energycutoff_0.37_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_20_nP_000_state_2_energycutoff_0.37_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_20_nP_100_state_0_energycutoff_0.31_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_20_nP_100_state_0_energycutoff_0.33_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_20_nP_100_state_0_energycutoff_0.35_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_20_nP_100_state_0_energycutoff_0.37_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_20_nP_100_state_1_energycutoff_0.31_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_20_nP_100_state_1_energycutoff_0.33_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_20_nP_100_state_1_energycutoff_0.35_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_20_nP_100_state_1_energycutoff_0.37_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_20_nP_100_state_2_energycutoff_0.37_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_20_nP_100_state_3_energycutoff_0.37_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_20_nP_100_state_4_energycutoff_0.37_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_20_nP_110_state_0_energycutoff_0.31_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_20_nP_110_state_0_energycutoff_0.33_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_20_nP_110_state_0_energycutoff_0.35_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_20_nP_110_state_0_energycutoff_0.37_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_20_nP_110_state_1_energycutoff_0.33_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_20_nP_110_state_1_energycutoff_0.35_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_20_nP_110_state_1_energycutoff_0.37_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_20_nP_110_state_2_energycutoff_0.33_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_20_nP_110_state_2_energycutoff_0.35_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_20_nP_110_state_2_energycutoff_0.37_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_20_nP_110_state_3_energycutoff_0.33_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_20_nP_110_state_3_energycutoff_0.35_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_20_nP_110_state_3_energycutoff_0.37_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_20_nP_110_state_4_energycutoff_0.37_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_20_nP_111_state_0_energycutoff_0.33_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_20_nP_111_state_0_energycutoff_0.35_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_20_nP_111_state_0_energycutoff_0.37_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_20_nP_111_state_1_energycutoff_0.33_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_20_nP_111_state_1_energycutoff_0.35_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_20_nP_111_state_1_energycutoff_0.37_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_20_nP_111_state_2_energycutoff_0.35_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_20_nP_111_state_2_energycutoff_0.37_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_20_nP_111_state_3_energycutoff_0.35_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_20_nP_111_state_3_energycutoff_0.37_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_20_nP_111_state_4_energycutoff_0.37_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_20_nP_200_state_0_energycutoff_0.29_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_20_nP_200_state_0_energycutoff_0.31_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_20_nP_200_state_0_energycutoff_0.33_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_20_nP_200_state_0_energycutoff_0.35_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_20_nP_200_state_0_energycutoff_0.37_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_20_nP_200_state_1_energycutoff_0.31_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_20_nP_200_state_1_energycutoff_0.33_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_20_nP_200_state_1_energycutoff_0.35_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_20_nP_200_state_1_energycutoff_0.37_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_20_nP_200_state_2_energycutoff_0.33_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_20_nP_200_state_2_energycutoff_0.35_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_20_nP_200_state_2_energycutoff_0.37_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_20_nP_200_state_3_energycutoff_0.35_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_20_nP_200_state_3_energycutoff_0.37_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_20_nP_200_state_4_energycutoff_0.37_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_20_nP_200_state_5_energycutoff_0.37_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_20_nP_200_state_6_energycutoff_0.37_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_24_nP_000_state_0_energycutoff_0.29_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_24_nP_000_state_0_energycutoff_0.31_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_24_nP_000_state_0_energycutoff_0.33_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_24_nP_000_state_0_energycutoff_0.35_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_24_nP_000_state_0_energycutoff_0.37_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_24_nP_000_state_1_energycutoff_0.33_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_24_nP_000_state_1_energycutoff_0.35_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_24_nP_000_state_1_energycutoff_0.37_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_24_nP_000_state_2_energycutoff_0.33_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_24_nP_000_state_2_energycutoff_0.35_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_24_nP_000_state_2_energycutoff_0.37_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_24_nP_000_state_3_energycutoff_0.37_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_24_nP_100_state_0_energycutoff_0.29_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_24_nP_100_state_0_energycutoff_0.31_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_24_nP_100_state_0_energycutoff_0.33_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_24_nP_100_state_0_energycutoff_0.35_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_24_nP_100_state_0_energycutoff_0.37_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_24_nP_100_state_10_energycutoff_0.37_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_24_nP_100_state_1_energycutoff_0.29_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_24_nP_100_state_1_energycutoff_0.31_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_24_nP_100_state_1_energycutoff_0.33_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_24_nP_100_state_1_energycutoff_0.35_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_24_nP_100_state_1_energycutoff_0.37_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_24_nP_100_state_2_energycutoff_0.29_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_24_nP_100_state_2_energycutoff_0.31_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_24_nP_100_state_2_energycutoff_0.33_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_24_nP_100_state_2_energycutoff_0.35_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_24_nP_100_state_2_energycutoff_0.37_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_24_nP_100_state_3_energycutoff_0.35_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_24_nP_100_state_3_energycutoff_0.37_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_24_nP_100_state_4_energycutoff_0.35_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_24_nP_100_state_4_energycutoff_0.37_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_24_nP_100_state_5_energycutoff_0.35_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_24_nP_100_state_5_energycutoff_0.37_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_24_nP_100_state_6_energycutoff_0.35_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_24_nP_100_state_6_energycutoff_0.37_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_24_nP_100_state_7_energycutoff_0.35_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_24_nP_100_state_7_energycutoff_0.37_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_24_nP_100_state_8_energycutoff_0.35_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_24_nP_100_state_8_energycutoff_0.37_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_24_nP_100_state_9_energycutoff_0.35_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_24_nP_100_state_9_energycutoff_0.37_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_24_nP_110_state_0_energycutoff_0.31_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_24_nP_110_state_0_energycutoff_0.33_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_24_nP_110_state_0_energycutoff_0.35_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_24_nP_110_state_0_energycutoff_0.37_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_24_nP_110_state_1_energycutoff_0.31_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_24_nP_110_state_1_energycutoff_0.33_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_24_nP_110_state_1_energycutoff_0.35_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_24_nP_110_state_1_energycutoff_0.37_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_24_nP_110_state_2_energycutoff_0.31_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_24_nP_110_state_2_energycutoff_0.33_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_24_nP_110_state_2_energycutoff_0.35_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_24_nP_110_state_2_energycutoff_0.37_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_24_nP_110_state_3_energycutoff_0.31_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_24_nP_110_state_3_energycutoff_0.33_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_24_nP_110_state_3_energycutoff_0.35_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_24_nP_110_state_3_energycutoff_0.37_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_24_nP_110_state_4_energycutoff_0.35_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_24_nP_110_state_4_energycutoff_0.37_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_24_nP_110_state_5_energycutoff_0.35_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_24_nP_110_state_5_energycutoff_0.37_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_24_nP_110_state_6_energycutoff_0.35_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_24_nP_110_state_6_energycutoff_0.37_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_24_nP_110_state_7_energycutoff_0.37_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_24_nP_110_state_8_energycutoff_0.37_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_24_nP_111_state_0_energycutoff_0.31_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_24_nP_111_state_0_energycutoff_0.33_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_24_nP_111_state_0_energycutoff_0.35_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_24_nP_111_state_0_energycutoff_0.37_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_24_nP_111_state_1_energycutoff_0.31_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_24_nP_111_state_1_energycutoff_0.33_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_24_nP_111_state_1_energycutoff_0.35_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_24_nP_111_state_1_energycutoff_0.37_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_24_nP_111_state_2_energycutoff_0.33_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_24_nP_111_state_2_energycutoff_0.35_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_24_nP_111_state_2_energycutoff_0.37_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_24_nP_111_state_3_energycutoff_0.33_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_24_nP_111_state_3_energycutoff_0.35_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_24_nP_111_state_3_energycutoff_0.37_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_24_nP_111_state_4_energycutoff_0.33_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_24_nP_111_state_4_energycutoff_0.35_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_24_nP_111_state_4_energycutoff_0.37_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_24_nP_111_state_5_energycutoff_0.33_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_24_nP_111_state_5_energycutoff_0.35_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_24_nP_111_state_5_energycutoff_0.37_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_24_nP_200_state_0_energycutoff_0.29_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_24_nP_200_state_0_energycutoff_0.31_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_24_nP_200_state_0_energycutoff_0.33_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_24_nP_200_state_0_energycutoff_0.35_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_24_nP_200_state_0_energycutoff_0.37_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_24_nP_200_state_1_energycutoff_0.29_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_24_nP_200_state_1_energycutoff_0.31_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_24_nP_200_state_1_energycutoff_0.33_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_24_nP_200_state_1_energycutoff_0.35_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_24_nP_200_state_1_energycutoff_0.37_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_24_nP_200_state_2_energycutoff_0.33_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_24_nP_200_state_2_energycutoff_0.35_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_24_nP_200_state_2_energycutoff_0.37_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_24_nP_200_state_3_energycutoff_0.33_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_24_nP_200_state_3_energycutoff_0.35_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_for_jackknife_L_24_nP_200_state_3_energycutoff_0.37_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_jackknifed_L_20_nP_000_energycutoff_0.29_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_jackknifed_L_20_nP_000_energycutoff_0.31_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_jackknifed_L_20_nP_000_energycutoff_0.33_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_jackknifed_L_20_nP_000_energycutoff_0.35_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_jackknifed_L_20_nP_000_energycutoff_0.37_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_jackknifed_L_20_nP_100_energycutoff_0.29_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_jackknifed_L_20_nP_100_energycutoff_0.31_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_jackknifed_L_20_nP_100_energycutoff_0.33_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_jackknifed_L_20_nP_100_energycutoff_0.35_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_jackknifed_L_20_nP_100_energycutoff_0.37_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_jackknifed_L_20_nP_110_energycutoff_0.29_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_jackknifed_L_20_nP_110_energycutoff_0.31_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_jackknifed_L_20_nP_110_energycutoff_0.33_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_jackknifed_L_20_nP_110_energycutoff_0.35_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_jackknifed_L_20_nP_110_energycutoff_0.37_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_jackknifed_L_20_nP_111_energycutoff_0.29_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_jackknifed_L_20_nP_111_energycutoff_0.31_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_jackknifed_L_20_nP_111_energycutoff_0.33_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_jackknifed_L_20_nP_111_energycutoff_0.35_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_jackknifed_L_20_nP_111_energycutoff_0.37_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_jackknifed_L_20_nP_200_energycutoff_0.29_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_jackknifed_L_20_nP_200_energycutoff_0.31_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_jackknifed_L_20_nP_200_energycutoff_0.33_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_jackknifed_L_20_nP_200_energycutoff_0.35_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_jackknifed_L_20_nP_200_energycutoff_0.37_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_jackknifed_L_24_nP_000_energycutoff_0.29_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_jackknifed_L_24_nP_000_energycutoff_0.31_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_jackknifed_L_24_nP_000_energycutoff_0.33_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_jackknifed_L_24_nP_000_energycutoff_0.35_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_jackknifed_L_24_nP_000_energycutoff_0.37_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_jackknifed_L_24_nP_100_energycutoff_0.29_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_jackknifed_L_24_nP_100_energycutoff_0.31_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_jackknifed_L_24_nP_100_energycutoff_0.33_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_jackknifed_L_24_nP_100_energycutoff_0.35_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_jackknifed_L_24_nP_100_energycutoff_0.37_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_jackknifed_L_24_nP_110_energycutoff_0.29_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_jackknifed_L_24_nP_110_energycutoff_0.31_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_jackknifed_L_24_nP_110_energycutoff_0.33_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_jackknifed_L_24_nP_110_energycutoff_0.35_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_jackknifed_L_24_nP_110_energycutoff_0.37_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_jackknifed_L_24_nP_111_energycutoff_0.29_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_jackknifed_L_24_nP_111_energycutoff_0.31_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_jackknifed_L_24_nP_111_energycutoff_0.33_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_jackknifed_L_24_nP_111_energycutoff_0.35_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_jackknifed_L_24_nP_111_energycutoff_0.37_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_jackknifed_L_24_nP_200_energycutoff_0.29_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_jackknifed_L_24_nP_200_energycutoff_0.31_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_jackknifed_L_24_nP_200_energycutoff_0.33_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_jackknifed_L_24_nP_200_energycutoff_0.35_two_params.dat
+	../QC_states_twoparams_fitting_L_20_24/temp_old/QC_states_jackknifed_L_24_nP_200_energycutoff_0.37_two_params.dat
+
+no changes added to commit (use "git add" and/or "git commit -a")

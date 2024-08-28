@@ -1,0 +1,21 @@
+
+===============================START=============================
+K3iso two param fitenergy cutoff = 0.334
+ndof = 32 - 2 = 30
+chisquare = 170.82765835999712
+chisquare per ndof = 5.694255278666571
+
+res = 
+      fun: 170.82765835999712
+ hess_inv: [[1.99999976e+00 1.50044229e-12]
+ [1.50044229e-12 1.99999976e+00]]
+  message: 'Optimization terminated successfully.'
+   minuit: <FMin algorithm='Migrad' edm=1.4267407687162119e-09 edm_goal=0.0001 errordef=0.5 fval=170.82765835999712 has_accurate_covar=True has_covariance=True has_made_posdef_covar=False has_parameters_at_limit=False has_posdef_covar=True has_reached_call_limit=False has_valid_parameters=True hesse_failed=False is_above_max_edm=False is_valid=True nfcn=50 ngrad=0 reduced_chi2=nan time=493.9000823240003>
+(Param(number=0, name='x0', value=175042.75690796407, error=1.4142134780794056, merror=None, is_const=False, is_fixed=False, lower_limit=None, upper_limit=None), Param(number=1, name='x1', value=33605262.31760372, error=1.4142134776674555, merror=None, is_const=False, is_fixed=False, lower_limit=None, upper_limit=None))
+[[1.99999976e+00 1.50044229e-12]
+ [1.50044229e-12 1.99999976e+00]]
+     nfev: 50
+     njev: 0
+  success: True
+        x: array([  175042.75690796, 33605262.31760372])
+================================END==============================

@@ -1,0 +1,64 @@
+P config:
+0	0	0
+P config:
+1	0	0
+P config:
+1	1	0
+P config:
+1	1	1
+P config:
+2	0	0
+P=000 run completion: 10%
+P=000 run completion: 20%
+P=000 run completion: 30%
+P=000 run completion: 40%
+P=000 run completion: 50%
+P=000 run completion: 60%
+P=000 run completion: 70%
+P=000 run completion: 80%
+P=000 run completion: 90%
+P=000 run completion: 100%
+P = 000 file generated!
+P=100 run completion: 10%
+P=100 run completion: 20%
+P=100 run completion: 30%
+P=100 run completion: 40%
+P=100 run completion: 50%
+P=100 run completion: 60%
+P=100 run completion: 70%
+P=100 run completion: 80%
+P=100 run completion: 90%
+P=100 run completion: 100%
+P = 100 file generated!
+P=110 run completion: 10%
+P=110 run completion: 20%
+P=110 run completion: 30%
+P=110 run completion: 40%
+P=110 run completion: 50%
+P=110 run completion: 60%
+P=110 run completion: 70%
+P=110 run completion: 80%
+P=110 run completion: 90%
+P = 110 file generated!
+P=111 run completion: 10%
+P=111 run completion: 20%
+P=111 run completion: 30%
+P=111 run completion: 40%
+P=111 run completion: 50%
+P=111 run completion: 60%
+P=111 run completion: 70%
+P=111 run completion: 80%
+P=111 run completion: 90%
+P=111 run completion: 100%
+P = 111 file generated!
+P=200 run completion: 10%
+P=200 run completion: 20%
+P=200 run completion: 30%
+P=200 run completion: 40%
+P=200 run completion: 50%
+P=200 run completion: 60%
+P=200 run completion: 70%
+P=200 run completion: 80%
+P=200 run completion: 90%
+P=200 run completion: 100%
+P = 200 file generated!

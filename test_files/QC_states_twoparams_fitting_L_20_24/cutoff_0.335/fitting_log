@@ -1,0 +1,21 @@
+
+===============================START=============================
+K3iso two param fitenergy cutoff = 0.335
+ndof = 33 - 2 = 31
+chisquare = 35.7822425283205
+chisquare per ndof = 1.1542658880103387
+
+res = 
+      fun: 35.7822425283205
+ hess_inv: [[ 2.14064374e+11 -5.82994051e+12]
+ [-5.82994051e+12  1.59329936e+14]]
+  message: 'Optimization terminated successfully, but uncertainties are unrealiable.'
+   minuit: <FMin algorithm='Migrad' edm=1.73473371412613e-05 edm_goal=0.0001 errordef=0.5 fval=35.7822425283205 has_accurate_covar=False has_covariance=True has_made_posdef_covar=True has_parameters_at_limit=False has_posdef_covar=False has_reached_call_limit=False has_valid_parameters=True hesse_failed=False is_above_max_edm=False is_valid=True nfcn=80 ngrad=0 reduced_chi2=nan time=794.5458672740006>
+(Param(number=0, name='x0', value=182759.63576903474, error=462670.91298786725, merror=None, is_const=False, is_fixed=False, lower_limit=None, upper_limit=None), Param(number=1, name='x1', value=-11356074.12501834, error=12622596.249063643, merror=None, is_const=False, is_fixed=False, lower_limit=None, upper_limit=None))
+[[ 2.14064374e+11 -5.82994051e+12]
+ [-5.82994051e+12  1.59329936e+14]]
+     nfev: 80
+     njev: 0
+  success: True
+        x: array([   182759.63576903, -11356074.12501834])
+================================END==============================
