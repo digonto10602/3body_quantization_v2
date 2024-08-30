@@ -30,7 +30,7 @@ import subprocess
 import math 
 import sys 
 
-threebody_path_ubuntu = '/home/digonto/Codes/Practical_Lattice_v2/3body_quantization/'
+threebody_path_ubuntu = '/home/digonto/Codes/Practical_Lattice_v2/3body_quantization_v2/'
 threebody_path_macos = '../../../'
 macos_path2 = '/Users/digonto/GitHub/jackknife_codes/'
 ubuntu_path2 = '/home/digonto/Codes/Practical_Lattice_v2/jackknife_codes/'
@@ -307,8 +307,8 @@ def spectrum_plotter_with_L20andL24_with_QCstates(cutoff_val):
         spectrum_file2 = spec_drive + "V24_" + str(irrep)
         #spectrum_file2 = "spectrum/spectrum.L24." + str(irrep)
         non_int_file = spec_drive + "non_int." + str(irrep)
-
-        QC_drive = threebody_path + "/test_files/QC_states_twoparams_fitting_L_20_24/cutoff_" + str(cutoff_val) + "/"
+        
+        QC_drive = threebody_path + "/test_files/QC_states_twoparams_K3iso0_fixed_fitting_L_20_24/cutoff_" + str(cutoff_val) + "/"
         QC_file1 = QC_drive + "QC_states_jackknifed_L_20_nP_" + moms + "_energycutoff_" + str(cutoff_val) + "_two_params.dat"
         QC_file2 = QC_drive + "QC_states_jackknifed_L_24_nP_" + moms + "_energycutoff_" + str(cutoff_val) + "_two_params.dat"
 
@@ -444,7 +444,7 @@ def diff_plotter(cutoff_val):
         L1, E1, Eerr1, EerrA = np.genfromtxt(spectrum_file1,unpack=True)
         L2, E2, Eerr2, EerrA2 = np.genfromtxt(spectrum_file2,unpack=True) 
 
-        QC_drive = threebody_path + "/test_files/QC_states_twoparams_fitting_L_20_24/cutoff_" + str(cutoff_val) + "/"
+        QC_drive = threebody_path + "/test_files/QC_states_twoparams_K3iso0_fixed_fitting_L_20_24/cutoff_" + str(cutoff_val) + "/"
         QC_file1 = QC_drive + "QC_states_jackknifed_L_20_nP_" + mom_list[i] + "_energycutoff_" + str(cutoff_val) + "_two_params.dat"
         QC_file2 = QC_drive + "QC_states_jackknifed_L_24_nP_" + mom_list[i] + "_energycutoff_" + str(cutoff_val) + "_two_params.dat"
 

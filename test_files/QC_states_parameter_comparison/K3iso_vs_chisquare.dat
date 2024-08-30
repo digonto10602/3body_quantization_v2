@@ -1,0 +1,9 @@
+#We only consider cutoffs upto atEcm=0.33 because that is where KKpipi threshold is 
+#chisquare  #K3iso0 #K3iso0_err #K3iso1 #K3iso1_err #fit_levels #comment
+1.47    65682.25662495  154033.47485515242  0   0   10  all_irrep_state0 
+0.7 2788251.35396196    3065027.045413032   0   0   2   000_A1m_state0
+0.86    387605.32299431 273455.7377215678   0   0   7   one_param_cutoff_atEcm=0.29
+1.39    -35592.13811436 109336.82499816979  0   0   17  one_param_cutoff_atEcm=0.31 
+1.6 -236121.63502889    6822.89169194453    0   0   31  one_param_cutoff_atEcm=0.33
+0.81    179534.12529502 134555.88380875264  -14373406.842944479 3243769.5369793973  17  two_param_cutoff_atEcm=0.31
+1.19    182307.55291966 79380.6984738515    -11406324.609134281 2055698.5324795705  32  two_param_cutoff_atEcm=0.334   

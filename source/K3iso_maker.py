@@ -8,8 +8,36 @@ import scipy.interpolate
 from mpl_toolkits.axes_grid1 import make_axes_locatable
 from PyPDF2 import PdfMerger
 
+
 import os 
 import subprocess 
+import math 
+import sys 
+from timeit import default_timer as timer
+
+import random 
+
+threebody_path_ubuntu = '/home/digonto/Codes/Practical_Lattice_v2/3body_quantization_v2/'
+threebody_path_macos = '/Users/digonto/GitHub/3body_quantization_v2/'
+macos_path2 = '/Users/digonto/GitHub/jackknife_codes/'
+ubuntu_path2 = '/home/digonto/Codes/Practical_Lattice_v2/jackknife_codes/'
+
+from sys import platform 
+
+if platform=="linux" or platform=="linux2":
+    print("platform = ",platform)
+    jackpath = ubuntu_path2
+    threebody_path = threebody_path_ubuntu
+elif platform=="darwin":
+    print("platform = ",platform)
+    jackpath = macos_path2
+    threebody_path = threebody_path_macos
+
+sys.path.insert(1, jackpath)
+
+import jackknife 
+from jackknife import jackknife_resampling, jackknife_average, jackknife_error 
+from lattice_data_covariance import covariance_between_states_szscl21_based
 
 def E_to_Ecm(En, P):
     return np.sqrt(En**2 - P**2)
@@ -422,18 +450,98 @@ def jackknifeavg_centralvalue_lattice_data():
         statecounter = statecounter + 1
         counter = counter + 1 
 
+def jackknifeavg_lattice_data_L20_L24():
+    spec_drive = threebody_path + 'lattice_data/KKpi_interacting_spectrum/twoptvar_analysis/masses/'
 
+    L_list = ["20","24"]
+    irrep_list = ["000_A1m","100_A2","110_A2","111_A2","200_A2"]
+
+    xi = 3.444
+    pi = np.arccos(-1.0)
+    L = 20
+    twopibyxiL = 2.0*pi/(xi*L)
+    
+    num_of_En_points = 200
+
+    nconfig = [[0,0,0],[1,0,0],[1,1,0],[1,1,1],[2,0,0]]
+
+    for L in L_list:
+        for i in range(0,len(irrep_list),1):
+            Lval = L
+            irrep = irrep_list[i]
+            nPx = nconfig[i][0]
+            nPy = nconfig[i][1]
+            nPz = nconfig[i][2]
+
+            spec_file = spec_drive + "V" + L + "_" + irrep
+
+            Ls, Ecm, err1, err2 = np.genfromtxt(spec_file,unpack=True)
+
+            for j in range(0,len(Ecm),1):
+                Ecm_val_ini = Ecm[j] - err2[j]
+                Ecm_val_fin = Ecm[j] + err2[j]
+
+                outputfile = "K3iso_jackavg_" + L + "_P" + str(nPx) + str(nPy) + str(nPz) + "_state_" + str(j) + ".dat"
+
+                K3iso = subprocess.check_output([threebody_path+'/generate_K3iso',str(nPx),str(nPy),str(nPz),str(L),str(Ecm_val_ini),str(Ecm_val_fin),str(num_of_En_points),str(outputfile)],shell=False)
+                
+def jackknifeavg_centralvalue_lattice_data_L20_L24():
+    spec_drive = threebody_path + 'lattice_data/KKpi_interacting_spectrum/twoptvar_analysis/masses/'
+
+    L_list = ["20","24"]
+    irrep_list = ["000_A1m","100_A2","110_A2","111_A2","200_A2"]
+
+    xi = 3.444
+    pi = np.arccos(-1.0)
+    L = 20
+    twopibyxiL = 2.0*pi/(xi*L)
+    
+    num_of_En_points = 200
+
+    nconfig = [[0,0,0],[1,0,0],[1,1,0],[1,1,1],[2,0,0]]
+
+    for L in L_list:
+        for i in range(0,len(irrep_list),1):
+            Lval = L
+            irrep = irrep_list[i]
+            nPx = nconfig[i][0]
+            nPy = nconfig[i][1]
+            nPz = nconfig[i][2]
+
+            spec_file = spec_drive + "V" + L + "_" + irrep
+
+            Ls, Ecm, err1, err2 = np.genfromtxt(spec_file,unpack=True)
+
+            outputfile = "K3iso_jackavg_centralval_" + L + "_P" + str(nPx) + str(nPy) + str(nPz) + ".dat"
+
+            fout = open(outputfile,"w")
+            for j in range(0,len(Ecm),1):
+                Ecm_val = Ecm[j]
+
+                K3iso = subprocess.check_output([threebody_path+'/generate_K3iso',str(nPx),str(nPy),str(nPz),str(L),str(Ecm_val)],shell=False)
+                result = K3iso.decode('utf-8')
+                finresult = float(result)
+                print(nPx,nPy,nPz,i,Ecm_val,float(result))
+                output = str(Ecm_val) + '\t' + str(finresult) + '\n' 
+                #output = output.rstrip('\n')
+                fout.write(output)                  
+    
+            fout.close()
+   
+    
 #P000()
 #P100()
 #P110()
 #P111()
 #P200()
 
-jackknifeavg_lattice_data()
-jackknifeavg_centralvalue_lattice_data()
+#This was used with just L20 data
+#jackknifeavg_lattice_data()
+#jackknifeavg_centralvalue_lattice_data()
 
-
-
+#This is used for both L20 and L24 newer set data using twopt
+#jackknifeavg_lattice_data_L20_L24()
+jackknifeavg_centralvalue_lattice_data_L20_L24()
 
 ############################### TEST ############################################
 
