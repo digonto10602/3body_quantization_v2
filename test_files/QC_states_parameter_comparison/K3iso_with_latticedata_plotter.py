@@ -55,6 +55,30 @@ kkpieta=0.36667
 kkphi=0.37345
 kkkk=0.38792
 
+atinv = 5666 
+atmpi = 0.06906
+atmK = 0.09698
+Fpi = 92 
+atFpi = Fpi/atinv 
+
+def chiPT_K3iso(atmpi, atmK, atinv, atFpi, Ecm, threshold):
+    xpi = atmpi/atFpi 
+    xK = atmK/atFpi #we consider SU(3) 
+    mK = atmK*atinv 
+    mpi = atmpi*atinv 
+    #print("xpi = ",xpi,"xK = ",xK)
+    K0 = (2.0*xK**4 + 4.0*(xK**3)*xpi)/atmK**2 
+    K1 = ((xK**2)*(2.0*xK + xpi)**2 )/atmK**2 
+
+    print("K0 = ",K0)
+    print("K1 = ",K1/(threshold*threshold))
+
+
+    #K3iso = K0 + (Ecm*Ecm - threshold*threshold)*K1/(threshold*threshold) 
+
+    #return K3iso 
+
+
 def plotter_with_1K3iso():
     plt.rcParams.update({'font.size': 22,'legend.fontsize': 12})
     plt.rc('font',**{'family':'serif','serif':['Computer Modern Roman']})
@@ -187,7 +211,8 @@ def plotter_with_3K3iso():
     K3iso_twoparam = np.zeros(1000)
     K3iso_ini_twoparam = np.zeros(1000)
     K3iso_fin_twoparam = np.zeros(1000)
-   
+
+    chipt_K3iso = np.zeros(1000)
 
     Ecm_for_K3iso = np.linspace(0.26,0.5,1000)
 
@@ -199,6 +224,9 @@ def plotter_with_3K3iso():
         K3iso_twoparam[i] = K3iso_twoparam_val
         K3iso_ini_twoparam[i] = K3iso_ini_twoparam_val
         K3iso_fin_twoparam[i] = K3iso_fin_twoparam_val
+        chipt_K3iso[i] = chiPT_K3iso(atmpi, atmK, atinv, atFpi, Ecm_for_K3iso[i], kkpi )
+        print("chiPT K3iso = ",chipt_K3iso[i])
+   
 
     ax.plot(Ecm_for_K3iso,K3iso0_arr,linestyle='solid',zorder=2,color='teal',label="000_A1m_state0")
     ax.fill_between(Ecm_for_K3iso,K3iso0_ini_arr,K3iso0_fin_arr,color='teal',alpha=0.2)
@@ -208,6 +236,8 @@ def plotter_with_3K3iso():
     
     ax.plot(Ecm_for_K3iso,K3iso_twoparam,linestyle='solid',zorder=2,color='blue',label="two_param_cutoff=0.31")
     ax.fill_between(Ecm_for_K3iso,K3iso_ini_twoparam, K3iso_fin_twoparam ,color='blue',alpha=0.2)
+    
+    ax.plot(Ecm_for_K3iso,chipt_K3iso,linestyle='dashed',zorder=2,color='red',label="LO chiPT")
     
     
     ax.legend()
@@ -221,4 +251,6 @@ def plotter_with_3K3iso():
 
 #plotter_with_1K3iso()
 
-plotter_with_3K3iso()
+#plotter_with_3K3iso()
+
+chiPT_K3iso(atmpi, atmK, atinv, atFpi, 0, kkpi)
