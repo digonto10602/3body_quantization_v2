@@ -249,8 +249,48 @@ def plotter_with_3K3iso():
     plt.show()
 
 
+def K3iso_with_SharpesData_plotter():
+    plt.rcParams.update({'font.size': 22,'legend.fontsize': 12})
+    plt.rc('font',**{'family':'serif','serif':['Computer Modern Roman']})
+    #plt.rc('font',**{'family':'serif','serif':['Palatino']})
+    plt.rc('text', usetex=True)
+
+    filename = "K3iso_vs_pionmass.dat"
+
+    (ensemble, pionmass, kaonmass, K0, K0err, K1, K1err) = np.genfromtxt(filename, unpack=True)
+
+    fig, ax = plt.subplots(figsize = (12,5))
+    ax.set_ylabel("$m_K^2 \mathcal{K}_{3,iso}$")
+    ax.set_xlabel("$m_\pi$")
+
+    #ax.set_xlim([0.26,0.45])
+    #ax.set_ylim([-1E7,1E7])
+
+    ax.errorbar(pionmass, K0 , xerr=None, yerr=K0err,
+                    marker='o',markerfacecolor="None", markersize=20, color="darkred",
+                    linestyle='none',markeredgewidth=1, capsize=20,zorder=4)
+    ax.plot(pionmass, K0 , 
+                    marker='o',markerfacecolor="white", markersize=20, color="darkred",
+                    linestyle='none', markeredgewidth=1, zorder=5, label="$\mathcal{K}_{3,iso,0}$")
+    ax.errorbar(pionmass, K1 , xerr=None, yerr=K1err,
+                    marker='o',markerfacecolor="None", markersize=20, color="black",
+                    linestyle='none',markeredgewidth=1, capsize=20,zorder=4)
+    ax.plot(pionmass, K1 , 
+                    marker='o',markerfacecolor="white", markersize=20, color="black",
+                    linestyle='none', markeredgewidth=1, zorder=5, label="$\mathcal{K}_{3,iso,1}$")
+    ax.legend()
+    fig.tight_layout()
+
+    outputfile = "K3iso_vs_pionmass.pdf"
+    outputfile1 = "K3iso_vs_pionmass.png"
+    plt.savefig(outputfile)
+    plt.savefig(outputfile1)
+    plt.close() 
+    #print(ensemble) 
 #plotter_with_1K3iso()
 
 #plotter_with_3K3iso()
 
-chiPT_K3iso(atmpi, atmK, atinv, atFpi, 0, kkpi)
+#chiPT_K3iso(atmpi, atmK, atinv, atFpi, 0, kkpi)
+
+K3iso_with_SharpesData_plotter()

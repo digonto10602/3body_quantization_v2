@@ -94,7 +94,7 @@ def QC3_bissection_interp1d_based_multiL(pointA_ind, pointB_ind, Ecm, F3inv, poi
     #F3inv_fin_result_A = float(F3inv_result_A)
 
     F3inv_fin_result_A = F3inv_interp(A)
-    K3iso_A = K3iso1 + K3iso2*(A*A - threeparticle_threshold_in_s)
+    K3iso_A = K3iso1 + K3iso2*(A*A - threeparticle_threshold_in_s)/threeparticle_threshold_in_s
     QC_A = QC3(K3iso_A, F3inv_fin_result_A)
     
     #F3inv_B = subprocess.check_output(['./eigen_F3inv',str(nPx),str(nPy),str(nPz),str(B)],shell=False)
@@ -102,7 +102,7 @@ def QC3_bissection_interp1d_based_multiL(pointA_ind, pointB_ind, Ecm, F3inv, poi
     #F3inv_fin_result_B = float(F3inv_result_B)
 
     F3inv_fin_result_B = F3inv_interp(B)
-    K3iso_B = K3iso1 + K3iso2*(B*B - threeparticle_threshold_in_s)
+    K3iso_B = K3iso1 + K3iso2*(B*B - threeparticle_threshold_in_s)/threeparticle_threshold_in_s
     QC_B = QC3(K3iso_B, F3inv_fin_result_B)
 
     print("QC_A = ",QC_A)
@@ -121,7 +121,7 @@ def QC3_bissection_interp1d_based_multiL(pointA_ind, pointB_ind, Ecm, F3inv, poi
             #F3inv_fin_result_C = float(F3inv_result_C)
 
             F3inv_fin_result_C = F3inv_interp(C)
-            K3iso_C = K3iso1 + K3iso2*(C*C - threeparticle_threshold_in_s)
+            K3iso_C = K3iso1 + K3iso2*(C*C - threeparticle_threshold_in_s)/threeparticle_threshold_in_s
             QC_C = QC3(K3iso_C, F3inv_fin_result_C)
             #print("QC_C = ",QC_C)
             if( abs(QC_C) < tol or abs(B-A)/2.0 < tol/1000000 ):
@@ -1419,8 +1419,8 @@ def test1_K3df_fitting_twoLs_one_param(energy_cutoff_val):
 
 
 def test1_K3df_fitting_twoLs_two_params(energy_cutoff_val):
-    K3iso1 = 146380.78001935#-1141654.34618343
-    K3iso2 = 37728004.09428708#14543829.93897527
+    K3iso1 = 179534.12 #146380.78001935#-1141654.34618343
+    K3iso2 = -994345.3919089 #14543829.93897527
     initial_K3iso1 = K3iso1 
     initial_K3iso2 = K3iso2
     x0 = [K3iso1, K3iso2]
@@ -2071,13 +2071,14 @@ def main():
     #one_param_fitting_state0(energy_cutoff_val)
     #two_params_fitting_K3iso0_fixed(energy_cutoff_val)
     #two_params_fitting(energy_cutoff_val)
-    energy_cutoff_list = [0.29, 0.31, 0.33, 0.334, 0.335, 0.345, 0.35, 0.37]
+    #energy_cutoff_list = [0.29, 0.31, 0.33, 0.334, 0.335, 0.345, 0.35, 0.37]
+    energy_cutoff_list = [0.29, 0.31, 0.33, 0.334, 0.335, 0.345]
 
     for i in range(0,len(energy_cutoff_list),1):
         energy_cutoff_val = energy_cutoff_list[i]
     #    one_param_fitting(energy_cutoff_val)
-    #    two_params_fitting(energy_cutoff_val)
-        two_params_fitting_K3iso0_fixed(energy_cutoff_val)
+        two_params_fitting(energy_cutoff_val)
+    #    two_params_fitting_K3iso0_fixed(energy_cutoff_val)
 
 main() 
 
